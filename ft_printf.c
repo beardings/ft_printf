@@ -111,7 +111,7 @@ size_t      startformat(size_t i, const char *format, t_arg *res)
     return (i);
 }
 
-// ******* нужно создать функцию для проверки есть ли у меня значение в моей рес, и если так то пердать в напечатку, єто нужно для того если реализовівать поиск арг с самого начала программі при віводе на єкран
+// ******* нужно учесть применение флагов до %
 size_t      searcharg(const char *format, va_list arg, t_arg *res)
 {
     size_t  i;
@@ -138,7 +138,7 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
     return (len);
 }
 
-// (***) нужно добавить бонус с *
+// (***) нужно добавить бонус с *  and n
 t_arg *createres()
 {
     t_arg   *res;

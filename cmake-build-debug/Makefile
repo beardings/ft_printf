@@ -123,6 +123,87 @@ get/fast:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/build
 .PHONY : get/fast
 
+castflag_c.o: castflag_c.c.o
+
+.PHONY : castflag_c.o
+
+# target to build an object file
+castflag_c.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_c.c.o
+.PHONY : castflag_c.c.o
+
+castflag_c.i: castflag_c.c.i
+
+.PHONY : castflag_c.i
+
+# target to preprocess a source file
+castflag_c.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_c.c.i
+.PHONY : castflag_c.c.i
+
+castflag_c.s: castflag_c.c.s
+
+.PHONY : castflag_c.s
+
+# target to generate assembly for a file
+castflag_c.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_c.c.s
+.PHONY : castflag_c.c.s
+
+castflag_s.o: castflag_s.c.o
+
+.PHONY : castflag_s.o
+
+# target to build an object file
+castflag_s.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_s.c.o
+.PHONY : castflag_s.c.o
+
+castflag_s.i: castflag_s.c.i
+
+.PHONY : castflag_s.i
+
+# target to preprocess a source file
+castflag_s.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_s.c.i
+.PHONY : castflag_s.c.i
+
+castflag_s.s: castflag_s.c.s
+
+.PHONY : castflag_s.s
+
+# target to generate assembly for a file
+castflag_s.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_s.c.s
+.PHONY : castflag_s.c.s
+
+castpress_s.o: castpress_s.c.o
+
+.PHONY : castpress_s.o
+
+# target to build an object file
+castpress_s.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_s.c.o
+.PHONY : castpress_s.c.o
+
+castpress_s.i: castpress_s.c.i
+
+.PHONY : castpress_s.i
+
+# target to preprocess a source file
+castpress_s.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_s.c.i
+.PHONY : castpress_s.c.i
+
+castpress_s.s: castpress_s.c.s
+
+.PHONY : castpress_s.s
+
+# target to generate assembly for a file
+castpress_s.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_s.c.s
+.PHONY : castpress_s.c.s
+
 do_format.o: do_format.c.o
 
 .PHONY : do_format.o
@@ -150,6 +231,33 @@ do_format.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/do_format.c.s
 .PHONY : do_format.c.s
 
+ft_itoa_base.o: ft_itoa_base.c.o
+
+.PHONY : ft_itoa_base.o
+
+# target to build an object file
+ft_itoa_base.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_itoa_base.c.o
+.PHONY : ft_itoa_base.c.o
+
+ft_itoa_base.i: ft_itoa_base.c.i
+
+.PHONY : ft_itoa_base.i
+
+# target to preprocess a source file
+ft_itoa_base.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_itoa_base.c.i
+.PHONY : ft_itoa_base.c.i
+
+ft_itoa_base.s: ft_itoa_base.c.s
+
+.PHONY : ft_itoa_base.s
+
+# target to generate assembly for a file
+ft_itoa_base.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_itoa_base.c.s
+.PHONY : ft_itoa_base.c.s
+
 ft_printf.o: ft_printf.c.o
 
 .PHONY : ft_printf.o
@@ -176,6 +284,33 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
+
+ft_putstrnew.o: ft_putstrnew.c.o
+
+.PHONY : ft_putstrnew.o
+
+# target to build an object file
+ft_putstrnew.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_putstrnew.c.o
+.PHONY : ft_putstrnew.c.o
+
+ft_putstrnew.i: ft_putstrnew.c.i
+
+.PHONY : ft_putstrnew.i
+
+# target to preprocess a source file
+ft_putstrnew.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_putstrnew.c.i
+.PHONY : ft_putstrnew.c.i
+
+ft_putstrnew.s: ft_putstrnew.c.s
+
+.PHONY : ft_putstrnew.s
+
+# target to generate assembly for a file
+ft_putstrnew.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_putstrnew.c.s
+.PHONY : ft_putstrnew.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -555,6 +690,114 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
 .PHONY : main.c.s
 
+printhesh.o: printhesh.c.o
+
+.PHONY : printhesh.o
+
+# target to build an object file
+printhesh.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/printhesh.c.o
+.PHONY : printhesh.c.o
+
+printhesh.i: printhesh.c.i
+
+.PHONY : printhesh.i
+
+# target to preprocess a source file
+printhesh.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/printhesh.c.i
+.PHONY : printhesh.c.i
+
+printhesh.s: printhesh.c.s
+
+.PHONY : printhesh.s
+
+# target to generate assembly for a file
+printhesh.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/printhesh.c.s
+.PHONY : printhesh.c.s
+
+upperarg.o: upperarg.c.o
+
+.PHONY : upperarg.o
+
+# target to build an object file
+upperarg.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/upperarg.c.o
+.PHONY : upperarg.c.o
+
+upperarg.i: upperarg.c.i
+
+.PHONY : upperarg.i
+
+# target to preprocess a source file
+upperarg.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/upperarg.c.i
+.PHONY : upperarg.c.i
+
+upperarg.s: upperarg.c.s
+
+.PHONY : upperarg.s
+
+# target to generate assembly for a file
+upperarg.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/upperarg.c.s
+.PHONY : upperarg.c.s
+
+writewidth.o: writewidth.c.o
+
+.PHONY : writewidth.o
+
+# target to build an object file
+writewidth.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewidth.c.o
+.PHONY : writewidth.c.o
+
+writewidth.i: writewidth.c.i
+
+.PHONY : writewidth.i
+
+# target to preprocess a source file
+writewidth.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewidth.c.i
+.PHONY : writewidth.c.i
+
+writewidth.s: writewidth.c.s
+
+.PHONY : writewidth.s
+
+# target to generate assembly for a file
+writewidth.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewidth.c.s
+.PHONY : writewidth.c.s
+
+writezero.o: writezero.c.o
+
+.PHONY : writezero.o
+
+# target to build an object file
+writezero.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writezero.c.o
+.PHONY : writezero.c.o
+
+writezero.i: writezero.c.i
+
+.PHONY : writezero.i
+
+# target to preprocess a source file
+writezero.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writezero.c.i
+.PHONY : writezero.c.i
+
+writezero.s: writezero.c.s
+
+.PHONY : writezero.s
+
+# target to generate assembly for a file
+writezero.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writezero.c.s
+.PHONY : writezero.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -564,12 +807,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... get"
+	@echo "... castflag_c.o"
+	@echo "... castflag_c.i"
+	@echo "... castflag_c.s"
+	@echo "... castflag_s.o"
+	@echo "... castflag_s.i"
+	@echo "... castflag_s.s"
+	@echo "... castpress_s.o"
+	@echo "... castpress_s.i"
+	@echo "... castpress_s.s"
 	@echo "... do_format.o"
 	@echo "... do_format.i"
 	@echo "... do_format.s"
+	@echo "... ft_itoa_base.o"
+	@echo "... ft_itoa_base.i"
+	@echo "... ft_itoa_base.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_putstrnew.o"
+	@echo "... ft_putstrnew.i"
+	@echo "... ft_putstrnew.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -612,6 +870,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... printhesh.o"
+	@echo "... printhesh.i"
+	@echo "... printhesh.s"
+	@echo "... upperarg.o"
+	@echo "... upperarg.i"
+	@echo "... upperarg.s"
+	@echo "... writewidth.o"
+	@echo "... writewidth.i"
+	@echo "... writewidth.s"
+	@echo "... writezero.o"
+	@echo "... writezero.i"
+	@echo "... writezero.s"
 .PHONY : help
 
 

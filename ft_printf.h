@@ -44,12 +44,13 @@ void            *do_format(t_arg *res);
 void            upperarg(t_arg *res);
 t_arg           *createres();
 
-intmax_t        castarg_int_m(t_arg *res);
-//intmax_t        castflag(t_arg *res);
 void            writewidth(t_arg *res);
 void            castflag_c(t_arg *res);
-uintmax_t       castarg_uint_m();
 void            writezero(t_arg *res);
 void            ft_putstrnew(char *tmp, int len);
+void            printhesh(t_arg *res);
+void            castflag_s(t_arg *res);
+void            castpress_s(t_arg *res, int i, char *tmp);
+char            *ft_itoa_base(uintmax_t value, uintmax_t base, t_arg *res);
 
 #endif

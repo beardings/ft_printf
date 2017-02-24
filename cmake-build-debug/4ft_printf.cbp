@@ -85,13 +85,28 @@
 		<Unit filename="//">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/do_format.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_itoa_base.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_putstrnew.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_atoi.c">
@@ -134,6 +149,18 @@
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/writewidth.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/writezero.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/CMakeLists.txt">

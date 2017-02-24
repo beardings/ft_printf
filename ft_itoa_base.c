@@ -2,30 +2,34 @@
 // Created by Mykola Ponomarov on 23.02.17.
 //
 
-#include <ft_printf.h>
-#define A(x) ((x) < 0 ? -(x) : (x))
+#include "ft_printf.h"
 
-void f(int value,  int base, char *str, int *i)
+void 		calc(uintmax_t value, char base, char *str, int *i)
 {
-    char tmp[] = "0123456789ABCDEF";
+    char	*look;
+    uintmax_t  basse;
 
-    if (value <= -base || value >= base)
-        f(value / base, base, str, i);
-    str[(*i)++] = tmp[a(value % base)];
+
+    basse = 0;
+    look = base == 'X' ? "0123456789ABCDEF" : "0123456789abcdef";
+    base == 'X' || base == 'x' ? basse = 16 : 0;
+    base == 'O' || base == 'o' ? basse = 8 : 0;
+    base == 'U' || base == 'u' ? basse = 10 : 0;
+    if (value >= basse)
+        calc(value/basse, base, str, i);
+    str[*i] = look[value % basse];
+    (*i)++;
 }
 
-char *ft_itoa_base(int value, int base)
+char		*ft_itoa_base(uintmax_t value, uintmax_t base, t_arg *res)
 {
+    char	*str;
     int i;
-    char *str;
 
+    if (2 > base || base > 16 || !(str = (char*)malloc(33)))
+        return (NULL);
     i = 0;
-    if (bace < 2 || bace > 16 || !(str = (char*)malloc(32)))
-        return (0);
-    if (base == 10 && value < 0)
-        str[i++] = '-';
-    f(value, base, str, &i);
+    calc(value, res->type, str, &i);
     str[i] = '\0';
     return (str);
-    
 }

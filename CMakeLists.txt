@@ -19,5 +19,14 @@ set(SOURCE_FILES main.c /
         libft/ft_putnbr.c /
         libft/ft_putnbr_fd.c /
         libft/ft_putchar_fd /
-        libft/ft_putstr_fd.c)
+        libft/ft_putstr_fd.c
+        ft_itoa_base.c /
+        castflag_s.c /
+        castpress_s.c /
+        castflag_c.c
+        ft_putstrnew.c /
+        writewidth.c /
+        writezero.c /
+        upperarg.c /
+        printhesh.c)
 add_executable(get ${SOURCE_FILES})

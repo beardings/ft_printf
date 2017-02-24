@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_c.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_s.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castpress_s.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/do_format.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/do_format.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/ft_itoa_base.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_itoa_base.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_printf.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/ft_putstrnew.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_putstrnew.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_atoi.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_atoi.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_bzero.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_bzero.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_lenint.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_lenint.c.o"
@@ -20,6 +25,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strlen.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_strlen.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strnew.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_strnew.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/main.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/main.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/printhesh.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/upperarg.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/writewidth.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writewidth.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/writezero.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writezero.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
