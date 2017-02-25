@@ -71,12 +71,12 @@ int         checkflags(size_t i, const char *format, t_arg *res)
     if (format[i] == 'l' && format[i + 1] != 'l')
         res->flag < 3 ? res->flag = 3, k++ : 0;
     if (format[i] == 'l' && format[i + 1] == 'l')
-        res->flag < 4 ? res->flag = 4, k++ : 0;
+        res->flag < 4 ? res->flag = 4, k += 2 : 0;
     if (format[i] == 'j')
         res->flag < 5 ? res->flag = 5, k++ : 0;
     if (format[i] == 'z')
         res->flag < 6 ? res->flag = 6, k++ : 0;
-    return (res->flag > 0 && k != 0 ? 1 : 0);
+    return (res->flag > 0 && k != 0 ? k : 0);
 }
 
 int         checkhzmp(size_t i, const char *format, t_arg *res)
@@ -102,7 +102,7 @@ size_t      startformat(size_t i, const char *format, t_arg *res)
     while (format[i] != '%' && format[i] != '\0')
     {
         k = 0;
-        if (!(checktype(i, format, res)) && !(checkflags(i, format, res)) && !(k = (size_t)checkhzmp(i, format, res)))
+        if (!(checktype(i, format, res)) && !(k = (size_t)checkflags(i, format, res)) && !(k = (size_t)checkhzmp(i, format, res)))
             return (i);
         k != 0 ? i += k : i++;
         if (res->type != '\0')

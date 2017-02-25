@@ -69,7 +69,7 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
         res->width -= len;
         writewidth(res);
         ft_putstr(tmp);
-        res->len += res->width + len;
+        res->len += len;
     }
     else if ((res->width) && (res->press) && !(res->zero) && !(res->minus) && !(res->hesh))
     {
@@ -146,6 +146,170 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
             ft_putstr(tmp);
             res->width -= len + res->hesh;
             writewidth(res);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && !(res->zero) && !(res->minus) && !(res->hesh))
+    {
+        if (res->press > len)
+        {
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && (res->zero) && !(res->minus) && !(res->hesh))
+    {
+        if (res->press > len)
+        {
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && !(res->zero) && (res->minus) && !(res->hesh))
+    {
+        if (res->press > len)
+        {
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && !(res->zero) && (res->minus) && (res->hesh))
+    {
+        if (res->press > len)
+        {
+            printhesh(res);
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            printhesh(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && (res->zero) && !(res->minus) && (res->hesh))
+    {
+        if (res->press > len)
+        {
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            printhesh(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && (res->hesh))
+    {
+        printhesh(res);
+        ft_putstr(tmp);
+        res->len += len;
+    }
+    else if ((res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && (res->hesh))
+    {
+        if (res->type == 'x' || res->type == 'X')
+            res->width -= len + res->hesh + 1;
+        else
+            res->width -= len + res->hesh;
+        writewidth(res);
+        printhesh(res);
+        ft_putstr(tmp);
+        res->len += len;
+    }
+    else if ((res->width) && (res->press) && !(res->zero) && !(res->minus) && (res->hesh))
+    {
+        if (res->press > len)
+        {
+            printhesh(res);
+            res->press -= len;
+            //res->width -= len + res->press;
+            //writezero(res);
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            if (res->type == 'x' || res->type == 'X')
+                res->width -= len + res->hesh + 1;
+            else
+                res->width -= len + res->hesh;
+            writewidth(res);
+            printhesh(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if ((res->width) && (res->press) && (res->zero) && !(res->minus) && (res->hesh))
+    {
+        if (res->press > len)
+        {
+            printhesh(res);
+            if (res->type != 'o' || res->type != 'O' || res->type != 'u' || res->type != 'U')
+                res->width += res->hesh - 1;
+            if (res->type != 'x' && res->type != 'X')
+            {
+                res->width -= res->press;
+                writewidth(res);
+            }
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            if (res->type != 'o' || res->type != 'O' || res->type != 'u' || res->type != 'U')
+                res->width += res->hesh + 1;
+            res->width -= len + res->hesh + 3;
+            writewidth(res);
+            printhesh(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+    }
+    else if (!(res->width) && (res->press) && !(res->zero) && !(res->minus) && (res->hesh))
+    {
+        if (res->press > len)
+        {
+            printhesh(res);
+            res->press -= len;
+            writepress(res);
+            ft_putstr(tmp);
+            res->len += len;
+        }
+        else
+        {
+            printhesh(res);
+            ft_putstr(tmp);
             res->len += len;
         }
     }

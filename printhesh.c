@@ -20,9 +20,9 @@ void printhesh(t_arg *res)
         res->len += 2;
         res->hesh = 2;
     }
-    else if (res->type == 'o' || res->type == 'O')
+    /*else if (res->type == 'o' || res->type == 'O')
     {
         ft_putnbr(0);
         res->len += 1;
-    }
+    }*/
 }

@@ -5,38 +5,37 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/02/16 22:36:27 by mponomar          #+#    #+#              #
-#    Updated: 2017/02/16 22:36:29 by mponomar         ###   ########.fr        #
+#    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
+#    Updated: 2017/02/25 22:52:14 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
 CFLAGS = -Wall -Wextra -Werror
 
-SOURCE = ft_printf.c /
-        libft/ft_putchar.c /
-        libft/ft_atoi.c /
-        libft/ft_strnew.c /
-        libft/ft_bzero.c /
-        libft/ft_memset.c /
-        libft/ft_lenint.c /
-        do_format.c /
-        libft/ft_strlen.c /
-        libft/ft_putstr.c /
-        libft/ft_putchar.c /
-        libft/ft_strdup.c
-        libft/ft_putnbr.c /
-        libft/ft_putnbr_fd.c /
-        libft/ft_putchar_fd /
-        libft/ft_putstr_fd.c
-        ft_itoa_base.c /
-        castflag_s.c /
-        castpress_s.c /
-        castflag_c.c
-        ft_putstrnew.c /
-        writewidth.c /
-        writezero.c /
-        upperarg.c /
-        printhesh.c
+SOURCE = ft_printf.c \
+		libft/ft_putchar.c \
+		libft/ft_atoi.c \
+		libft/ft_strnew.c \
+		libft/ft_bzero.c \
+		libft/ft_memset.c \
+		libft/ft_lenint.c \
+		do_format.c \
+		libft/ft_strlen.c \
+		libft/ft_putstr.c \
+		libft/ft_strdup.c \
+		libft/ft_putnbr.c \
+		libft/ft_putchar_fd.c \
+		libft/ft_putnbr_fd.c \
+		libft/ft_putstr_fd.c \
+		ft_itoa_base.c \
+		castflag_s.c \
+		castpress_s.c \
+		castflag_c.c \
+		ft_putstrnew.c \
+		writewidth.c \
+		writezero.c \
+		upperarg.c \
+		printhesh.c
 
 OBJECTS = $(SOURCE:.c=.o)
 
