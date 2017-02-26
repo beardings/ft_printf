@@ -122,10 +122,11 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
     res->tmp = va_arg(arg, void *);
     while (format[i] != '\0')
     {
-        if (format[i] == '%' && format[i + 1] != '%' && format[i + 1] != '\0')
+        while (format[i] == '%' && format[i + 1] != '%' && format[i + 1] != '\0')
         {
             i = (startformat(i + 1, format, res));
             res->type != '\0' ? do_format(res), free(res), len = len + res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
+
         }
         if (format[i] == '%' && format[i + 1] == '%')
             i++;
@@ -172,7 +173,7 @@ int         ft_printf(const char *format, ...)
         len = searcharg(format, arg, res);
         va_end(arg);
     }
-    printf("\n");
+/*    printf("\n");
     printf("\nres_len: %d", res->len);
     printf("\nflag: %d", res->flag);
     printf("\nspace: %d", res->space);
@@ -182,8 +183,8 @@ int         ft_printf(const char *format, ...)
     printf("\nplus: %d", res->plus);
     printf("\nmin: %d", res->minus);
     printf("\npre: %d", res->press);
-    printf("\nwidth: %d", res->width);
-    printf("\nlen: %d", (int)len);
-    printf("\n");
+    printf("\nwidth: %d", res->width);*/
+    //printf("\nlen: %d", (int)len);
+    //printf("\n");
     return ((int)len);
 }

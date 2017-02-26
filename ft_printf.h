@@ -47,10 +47,11 @@ t_arg           *createres();
 void            writewidth(t_arg *res);
 void            castflag_c(t_arg *res);
 void            writezero(t_arg *res);
-void            ft_putstrnew(char *tmp, int len);
+void            ft_putstrnew(char *tmp, int len, t_arg *res);
 void            printhesh(t_arg *res);
-void            castflag_s(t_arg *res);
+int             castflag_s(t_arg *res);
 void            castpress_s(t_arg *res, int i, char *tmp);
 char            *ft_itoa_base(uintmax_t value, uintmax_t base, t_arg *res);
+int             ft_null(char *tmp, t_arg *res);
 
 #endif

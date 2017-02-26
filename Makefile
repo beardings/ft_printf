@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/02/25 22:52:14 by mponomar         ###   ########.fr        #
+#    Updated: 2017/02/26 18:32:37 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -35,7 +35,8 @@ SOURCE = ft_printf.c \
 		writewidth.c \
 		writezero.c \
 		upperarg.c \
-		printhesh.c
+		printhesh.c \
+		ft_null.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

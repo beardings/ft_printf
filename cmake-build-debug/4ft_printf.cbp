@@ -100,6 +100,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_itoa_base.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_null.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.c">
 			<Option target="get"/>
 		</Unit>

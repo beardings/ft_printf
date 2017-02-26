@@ -21,6 +21,10 @@ CMakeFiles/get.dir/ft_itoa_base.c.o: ../ft_itoa_base.c
 CMakeFiles/get.dir/ft_itoa_base.c.o: ../ft_printf.h
 CMakeFiles/get.dir/ft_itoa_base.c.o: ../libft/libft.h
 
+CMakeFiles/get.dir/ft_null.c.o: ../ft_null.c
+CMakeFiles/get.dir/ft_null.c.o: ../ft_printf.h
+CMakeFiles/get.dir/ft_null.c.o: ../libft/libft.h
+
 CMakeFiles/get.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/get.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/get.dir/ft_printf.c.o: ../libft/libft.h

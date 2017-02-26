@@ -4,7 +4,7 @@
 
 #include "ft_printf.h"
 
-void ft_putstrnew(char *tmp, int len)
+void ft_putstrnew(char *tmp, int len, t_arg *res)
 {
     int i;
 
@@ -12,6 +12,7 @@ void ft_putstrnew(char *tmp, int len)
     while (i < len)
     {
         write(1, &tmp[i], 1);
+        res->len += 1;
         i++;
     }
 }

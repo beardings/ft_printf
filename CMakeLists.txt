@@ -28,5 +28,6 @@ set(SOURCE_FILES main.c /
         writewidth.c /
         writezero.c /
         upperarg.c /
-        printhesh.c)
+        printhesh.c /
+        ft_null.c)
 add_executable(get ${SOURCE_FILES})

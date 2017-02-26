@@ -24,6 +24,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/writezero.c.o"
   "CMakeFiles/get.dir/upperarg.c.o"
   "CMakeFiles/get.dir/printhesh.c.o"
+  "CMakeFiles/get.dir/ft_null.c.o"
   "get.pdb"
   "get"
 )

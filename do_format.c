@@ -23,9 +23,9 @@ char    *cast_mod(t_arg *res)
     uintmax_t mun;
     char *tmp;
 
-    if (res->flag == 1)
+    if (res->flag == 1 && res->type != 'U' && res->type != 'X' && res->type != 'O')
         mun = (unsigned char)res->tmp;
-    else if (res->flag == 2)
+    else if (res->flag == 2 && res->type != 'U' && res->type != 'X' && res->type != 'O')
         mun = (unsigned short)res->tmp;
     else if (res->flag == 3)
         mun = (unsigned long)res->tmp;
@@ -59,7 +59,12 @@ void writepress(t_arg *res)
 
 void cast_mod_base(char *tmp, int len, t_arg *res)
 {
-    if (!(res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && !(res->hesh))
+    if (res->press == -1 && res->zero == 2 && tmp[0] == '0' && tmp[1] == '\0')
+    {
+        ft_putstr(tmp);
+        res->len += len;
+    }
+    else if (!(res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && !(res->hesh))
     {
         res->len += len;
         ft_putstr(tmp);
@@ -68,7 +73,10 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
     {
         res->width -= len;
         writewidth(res);
-        ft_putstr(tmp);
+        if ((tmp[0] == '0' && tmp[1] == '\0') && (res->type == 'x' || res->type == 'o' || res->type == 'u'))
+            write (1, " ", 1);
+        else
+            ft_putstr(tmp);
         res->len += len;
     }
     else if ((res->width) && (res->press) && !(res->zero) && !(res->minus) && !(res->hesh))
@@ -104,8 +112,11 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
         else
         {
             res->width -= len;
-            writezero(res);
-            ft_putstr(tmp);
+            tmp[0] != '0' && tmp[1] != '\0' ? writezero(res) : writewidth(res);
+            if ((tmp[0] == '0' && tmp[1] == '\0') && (res->type == 'x' || res->type == 'o' || res->type == 'u'))
+                write (1, " ", 1);
+            else
+                ft_putstr(tmp);
             res->len += len;
         }
     }
@@ -229,7 +240,7 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
     }
     else if (!(res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && (res->hesh))
     {
-        printhesh(res);
+        tmp[0] != 0  && tmp[1] != '\0' ? printhesh(res): 0;
         ft_putstr(tmp);
         res->len += len;
     }
@@ -268,7 +279,7 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
             res->len += len;
         }
     }
-    else if ((res->width) && (res->press) && (res->zero) && !(res->minus) && (res->hesh))
+    else if ((res->width) && (res->press) > -1 && (res->zero) && !(res->minus) && (res->hesh))
     {
         if (res->press > len)
         {
@@ -312,6 +323,22 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
             ft_putstr(tmp);
             res->len += len;
         }
+    }
+    else if ((res->width) && (res->press) == -1 && (res->zero) && !(res->minus) && (res->hesh))
+    {
+        printhesh(res);
+        if (res->type != 'x' && res->type != 'X')
+        {
+            res->width -= len;
+            writewidth(res);
+        }
+        else
+        {
+            res->width -= len + res->hesh;
+            writezero(res);
+        }
+        ft_putstr(tmp);
+        res->len += len;
     }
 }
 

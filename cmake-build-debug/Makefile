@@ -258,6 +258,33 @@ ft_itoa_base.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_itoa_base.c.s
 .PHONY : ft_itoa_base.c.s
 
+ft_null.o: ft_null.c.o
+
+.PHONY : ft_null.o
+
+# target to build an object file
+ft_null.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_null.c.o
+.PHONY : ft_null.c.o
+
+ft_null.i: ft_null.c.i
+
+.PHONY : ft_null.i
+
+# target to preprocess a source file
+ft_null.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_null.c.i
+.PHONY : ft_null.c.i
+
+ft_null.s: ft_null.c.s
+
+.PHONY : ft_null.s
+
+# target to generate assembly for a file
+ft_null.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/ft_null.c.s
+.PHONY : ft_null.c.s
+
 ft_printf.o: ft_printf.c.o
 
 .PHONY : ft_printf.o
@@ -822,6 +849,9 @@ help:
 	@echo "... ft_itoa_base.o"
 	@echo "... ft_itoa_base.i"
 	@echo "... ft_itoa_base.s"
+	@echo "... ft_null.o"
+	@echo "... ft_null.i"
+	@echo "... ft_null.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

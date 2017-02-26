@@ -4,51 +4,57 @@
 
 #include "ft_printf.h"
 
-void castflag_s(t_arg *res)
+int castflag_s(t_arg *res)
 {
     char *tmp;
     int i;
 
     tmp = (char *)res->tmp;
-    i = (int)ft_strlen(tmp);
+    i = 0;
+    tmp != NULL ? i = (int)ft_strlen(tmp) : 0;
     if (!(res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
-        ft_putstr(tmp);
+        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
         res->len += i;
     }
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
+        tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
         writewidth(res);
-        ft_putstr(tmp);
-        res->len = res->len + res->width + i;
+        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        res->len = res->width + i;
     }
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press) == -1)
     {
+        tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
-        ft_putstr(tmp);
+        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
         writewidth(res);
-        res->len = res->len + res->width + i;
+        res->len += i;
     }
     else if ((res->width) && (res->minus) && (res->zero) && (res->press) == -1)
     {
+        tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
         ft_putstr(tmp);
         writezero(res);
-        res->len = res->len + res->width + i;
+        res->len += i;
     }
     else if ((res->width) && !(res->minus) && (res->zero) && (res->press) == -1)
     {
+        tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
         writezero(res);
-        ft_putstr(tmp);
-        res->len = res->len + res->width + i;
+        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        res->len += i;
     }
     else if (res->press)
         castpress_s(res, i, tmp);
     else
     {
-        ft_putstr(tmp);
+        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
         res->len = res->len + i;
     }
+    return (0);
 }
