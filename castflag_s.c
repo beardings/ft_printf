@@ -20,10 +20,8 @@ int castflag_s(t_arg *res)
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
         tmp == NULL ?  res->width = res->width - 6 : 0;
-        res->width -= i;
         writewidth(res);
-        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
-        res->len = res->width + i;
+        (ft_null(tmp, res)) == 1 || (i - res->width) < 0 ? 0 : ft_putstr(tmp);
     }
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press) == -1)
     {

@@ -9,8 +9,12 @@ void castpress_s(t_arg *res, int i, char *tmp)
     if (!(res->width) && !(res->minus) && !(res->zero) && (res->press))
     {
         if (res->press > i)
+        {
             (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
-        ft_putstrnew(tmp, i - res->press, res);
+            res->len += i;
+        }
+        else
+            ft_putstrnew(tmp, res->press, res);
     }
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press))
     {

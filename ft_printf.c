@@ -127,7 +127,7 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
             i = (startformat(i + 1, format, res));
             res->type != '\0' ? do_format(res), free(res), len +=res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
         }
-        if (format[i] == '%' && format[i + 1] == '%')
+        if (format[i] == '%' && format[i + 1] == '%')/* || (format[i] == '%' && format[i + 1] == '\0'))*/
             i++;
         if (format[i] == '\0')
             break ;
@@ -156,8 +156,6 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
     }
     return (len);
 }
-
-// (***) нужно добавить бонус с *  and n
 t_arg *createres()
 {
     t_arg   *res;
@@ -176,7 +174,6 @@ t_arg *createres()
     return (res);
 }
 
-// *** не забыть нужно обрабатывать так же и лаги если они стоят на первом месте даже до %
 int         ft_printf(const char *format, ...)
 {
     va_list arg;

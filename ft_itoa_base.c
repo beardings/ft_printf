@@ -12,7 +12,7 @@ void 		calc(uintmax_t value, char base, char *str, int *i)
 
     basse = 0;
     look = base == 'X' ? "0123456789ABCDEF" : "0123456789abcdef";
-    base == 'X' || base == 'x' ? basse = 16 : 0;
+    base == 'X' || base == 'x' || base == 'p' ? basse = 16 : 0;
     base == 'O' || base == 'o' ? basse = 8 : 0;
     base == 'U' || base == 'u' ? basse = 10 : 0;
     if (value >= basse)
