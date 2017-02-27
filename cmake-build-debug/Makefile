@@ -123,6 +123,33 @@ get/fast:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/build
 .PHONY : get/fast
 
+castflag_bigS.o: castflag_bigS.c.o
+
+.PHONY : castflag_bigS.o
+
+# target to build an object file
+castflag_bigS.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.o
+.PHONY : castflag_bigS.c.o
+
+castflag_bigS.i: castflag_bigS.c.i
+
+.PHONY : castflag_bigS.i
+
+# target to preprocess a source file
+castflag_bigS.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.i
+.PHONY : castflag_bigS.c.i
+
+castflag_bigS.s: castflag_bigS.c.s
+
+.PHONY : castflag_bigS.s
+
+# target to generate assembly for a file
+castflag_bigS.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.s
+.PHONY : castflag_bigS.c.s
+
 castflag_c.o: castflag_c.c.o
 
 .PHONY : castflag_c.o
@@ -177,6 +204,33 @@ castflag_s.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_s.c.s
 .PHONY : castflag_s.c.s
 
+castpress_bigS.o: castpress_bigS.c.o
+
+.PHONY : castpress_bigS.o
+
+# target to build an object file
+castpress_bigS.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.o
+.PHONY : castpress_bigS.c.o
+
+castpress_bigS.i: castpress_bigS.c.i
+
+.PHONY : castpress_bigS.i
+
+# target to preprocess a source file
+castpress_bigS.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.i
+.PHONY : castpress_bigS.c.i
+
+castpress_bigS.s: castpress_bigS.c.s
+
+.PHONY : castpress_bigS.s
+
+# target to generate assembly for a file
+castpress_bigS.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.s
+.PHONY : castpress_bigS.c.s
+
 castpress_s.o: castpress_s.c.o
 
 .PHONY : castpress_s.o
@@ -230,6 +284,33 @@ do_format.s: do_format.c.s
 do_format.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/do_format.c.s
 .PHONY : do_format.c.s
+
+dowchar_t.o: dowchar_t.c.o
+
+.PHONY : dowchar_t.o
+
+# target to build an object file
+dowchar_t.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/dowchar_t.c.o
+.PHONY : dowchar_t.c.o
+
+dowchar_t.i: dowchar_t.c.i
+
+.PHONY : dowchar_t.i
+
+# target to preprocess a source file
+dowchar_t.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/dowchar_t.c.i
+.PHONY : dowchar_t.c.i
+
+dowchar_t.s: dowchar_t.c.s
+
+.PHONY : dowchar_t.s
+
+# target to generate assembly for a file
+dowchar_t.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/dowchar_t.c.s
+.PHONY : dowchar_t.c.s
 
 ft_itoa_base.o: ft_itoa_base.c.o
 
@@ -771,6 +852,60 @@ upperarg.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/upperarg.c.s
 .PHONY : upperarg.c.s
 
+writepress.o: writepress.c.o
+
+.PHONY : writepress.o
+
+# target to build an object file
+writepress.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writepress.c.o
+.PHONY : writepress.c.o
+
+writepress.i: writepress.c.i
+
+.PHONY : writepress.i
+
+# target to preprocess a source file
+writepress.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writepress.c.i
+.PHONY : writepress.c.i
+
+writepress.s: writepress.c.s
+
+.PHONY : writepress.s
+
+# target to generate assembly for a file
+writepress.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writepress.c.s
+.PHONY : writepress.c.s
+
+writewchar_t.o: writewchar_t.c.o
+
+.PHONY : writewchar_t.o
+
+# target to build an object file
+writewchar_t.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewchar_t.c.o
+.PHONY : writewchar_t.c.o
+
+writewchar_t.i: writewchar_t.c.i
+
+.PHONY : writewchar_t.i
+
+# target to preprocess a source file
+writewchar_t.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewchar_t.c.i
+.PHONY : writewchar_t.c.i
+
+writewchar_t.s: writewchar_t.c.s
+
+.PHONY : writewchar_t.s
+
+# target to generate assembly for a file
+writewchar_t.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/writewchar_t.c.s
+.PHONY : writewchar_t.c.s
+
 writewidth.o: writewidth.c.o
 
 .PHONY : writewidth.o
@@ -834,18 +969,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... get"
+	@echo "... castflag_bigS.o"
+	@echo "... castflag_bigS.i"
+	@echo "... castflag_bigS.s"
 	@echo "... castflag_c.o"
 	@echo "... castflag_c.i"
 	@echo "... castflag_c.s"
 	@echo "... castflag_s.o"
 	@echo "... castflag_s.i"
 	@echo "... castflag_s.s"
+	@echo "... castpress_bigS.o"
+	@echo "... castpress_bigS.i"
+	@echo "... castpress_bigS.s"
 	@echo "... castpress_s.o"
 	@echo "... castpress_s.i"
 	@echo "... castpress_s.s"
 	@echo "... do_format.o"
 	@echo "... do_format.i"
 	@echo "... do_format.s"
+	@echo "... dowchar_t.o"
+	@echo "... dowchar_t.i"
+	@echo "... dowchar_t.s"
 	@echo "... ft_itoa_base.o"
 	@echo "... ft_itoa_base.i"
 	@echo "... ft_itoa_base.s"
@@ -906,6 +1050,12 @@ help:
 	@echo "... upperarg.o"
 	@echo "... upperarg.i"
 	@echo "... upperarg.s"
+	@echo "... writepress.o"
+	@echo "... writepress.i"
+	@echo "... writepress.s"
+	@echo "... writewchar_t.o"
+	@echo "... writewchar_t.i"
+	@echo "... writewchar_t.s"
 	@echo "... writewidth.o"
 	@echo "... writewidth.i"
 	@echo "... writewidth.s"

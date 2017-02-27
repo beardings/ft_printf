@@ -53,5 +53,10 @@ int             castflag_s(t_arg *res);
 void            castpress_s(t_arg *res, int i, char *tmp);
 char            *ft_itoa_base(uintmax_t value, uintmax_t base, t_arg *res);
 int             ft_null(char *tmp, t_arg *res);
+void            writewchar_t(wchar_t c, t_arg *res);
+int             castflag_bigS(t_arg *res);
+void            dowchar_t(wchar_t *tmp, t_arg *res, int len);
+void            writepress(t_arg *res);
+void            castpress_bigS(t_arg *res, int i, wchar_t *tmp);
 
 #endif

@@ -25,6 +25,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/upperarg.c.o"
   "CMakeFiles/get.dir/printhesh.c.o"
   "CMakeFiles/get.dir/ft_null.c.o"
+  "CMakeFiles/get.dir/writewchar_t.c.o"
+  "CMakeFiles/get.dir/castflag_bigS.c.o"
+  "CMakeFiles/get.dir/writepress.c.o"
+  "CMakeFiles/get.dir/dowchar_t.c.o"
+  "CMakeFiles/get.dir/castpress_bigS.c.o"
   "get.pdb"
   "get"
 )

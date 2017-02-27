@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(4ft_printf)
 
-set(CMAKE_C_FLAGS )
+set(CMAKE_C_FLAGS)
 
 set(SOURCE_FILES main.c /
         ft_printf.c /
@@ -29,5 +29,10 @@ set(SOURCE_FILES main.c /
         writezero.c /
         upperarg.c /
         printhesh.c /
-        ft_null.c)
+        ft_null.c /
+        writewchar_t.c /
+        castflag_bigS.c /
+        writepress.c /
+        dowchar_t.c /
+        castpress_bigS.c)
 add_executable(get ${SOURCE_FILES})

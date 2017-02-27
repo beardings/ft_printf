@@ -46,7 +46,7 @@ int         checktype(size_t i, const char *format, t_arg *res)
     size_t k;
 
     k = 0;
-    types = "spdDioOuUxXcC";
+    types = "sSpdDioOuUxXcC";
     while (types[k] != '\0')
     {
         if (format[i] == types[k])
@@ -65,7 +65,7 @@ int         checkflags(size_t i, const char *format, t_arg *res)
 
     k = 0;
     if (format[i] == 'h' && format[i + 1] == 'h')
-        res->flag < 1 ? res->flag = 1, k++ : 0;
+        res->flag < 1 ? res->flag = 1, k += 2 : 0;
     if (format[i] == 'h' && format[i + 1] != 'h')
         res->flag < 2 ? res->flag = 2, k++ : 0;
     if (format[i] == 'l' && format[i + 1] != 'l')
@@ -125,14 +125,32 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
         while (format[i] == '%' && format[i + 1] != '%' && format[i + 1] != '\0')
         {
             i = (startformat(i + 1, format, res));
-            res->type != '\0' ? do_format(res), free(res), len = len + res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
-
+            res->type != '\0' ? do_format(res), free(res), len +=res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
         }
         if (format[i] == '%' && format[i + 1] == '%')
             i++;
         if (format[i] == '\0')
             break ;
-        ft_putchar(format[i]);
+        if (res->type == '\0' && res->width > 0)
+        {
+            upperarg(res);
+            if (res->minus > 0)
+            {
+                ft_putchar(format[i]);
+                res->width -= 1;
+                writewidth(res);
+                len +=res->len;
+            }
+            else
+            {
+                res->zero > 0 ? res->width -= 1,  writezero(res) : 0;
+                res->zero == 0 ? res->width -= 1, writewidth(res) : 0;
+                ft_putchar(format[i]);
+                len +=res->len;
+            }
+        }
+        else
+            ft_putchar(format[i]);
         len++;
         i++;
     }
@@ -184,7 +202,7 @@ int         ft_printf(const char *format, ...)
     printf("\nmin: %d", res->minus);
     printf("\npre: %d", res->press);
     printf("\nwidth: %d", res->width);*/
-    //printf("\nlen: %d", (int)len);
+    printf("\nlen: %d", (int)len);
     //printf("\n");
     return ((int)len);
 }

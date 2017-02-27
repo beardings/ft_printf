@@ -4,10 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_bigS.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_c.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_s.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castpress_bigS.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castpress_s.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/do_format.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/do_format.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/dowchar_t.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/dowchar_t.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/ft_itoa_base.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_itoa_base.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/ft_null.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_null.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/ft_printf.c.o"
@@ -28,6 +31,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/ft_printf/main.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/main.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/printhesh.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/upperarg.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/writepress.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writepress.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/writewchar_t.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writewchar_t.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/writewidth.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writewidth.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/writezero.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/writezero.c.o"
   )

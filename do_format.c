@@ -39,25 +39,14 @@ char    *cast_mod(t_arg *res)
         mun = (unsigned int)res->tmp;
     else
         mun = (unsigned long)res->tmp;
+    if (mun == 4294967296 && res->type == 'X' && res->flag < 3)
+        mun = 0;
     tmp = base(res, mun);
     return (tmp);
 }
 
-void writepress(t_arg *res)
-{
-    int i;
 
-    i = 0;
-    while (i < res->press && res->press > 0)
-    {
-        ft_putnbr(0);
-        res->len += 1;
-        i++;
-    }
-}
-
-
-void cast_mod_base(char *tmp, int len, t_arg *res)
+int cast_mod_base(char *tmp, int len, t_arg *res)
 {
     if (res->press == -1 && res->zero == 2 && tmp[0] == '0' && tmp[1] == '\0')
     {
@@ -233,14 +222,14 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
         }
         else
         {
-            printhesh(res);
+            tmp[0] != '0' ? printhesh(res): 0;
             ft_putstr(tmp);
             res->len += len;
         }
     }
     else if (!(res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && (res->hesh))
     {
-        tmp[0] != 0  && tmp[1] != '\0' ? printhesh(res): 0;
+        tmp[0] != '0' ? printhesh(res): 0;
         ft_putstr(tmp);
         res->len += len;
     }
@@ -340,6 +329,7 @@ void cast_mod_base(char *tmp, int len, t_arg *res)
         ft_putstr(tmp);
         res->len += len;
     }
+    return (0);
 }
 
 void    cast_standart_for_base(t_arg *res)
@@ -351,6 +341,8 @@ void    cast_standart_for_base(t_arg *res)
     len = (int)ft_strlen(tmp);
     cast_mod_base(tmp, len, res);
 }
+
+
 
 void    *do_format(t_arg *res)
 {
@@ -366,6 +358,6 @@ void    *do_format(t_arg *res)
     res->type == 'c' || res->type == 'C' ? castflag_c(res) : 0;
     res->type == 's' ? castflag_s(res) : 0;
     //res->type == 'p' ? castflag_p(res) : 0;
-    //res->type == 'S' ? castflag_S(res) : 0;
+    res->type == 'S' ? castflag_bigS(res) : 0;
     return (0);
 }

@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/02/26 18:32:37 by mponomar         ###   ########.fr        #
+#    Updated: 2017/02/27 19:14:50 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -36,7 +36,12 @@ SOURCE = ft_printf.c \
 		writezero.c \
 		upperarg.c \
 		printhesh.c \
-		ft_null.c
+		ft_null.c \
+		writewchar_t.c \
+		castflag_bigS.c \
+		writepress.c \
+		dowchar_t.c \
+		castpress_bigS.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

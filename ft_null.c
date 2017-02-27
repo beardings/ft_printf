@@ -9,7 +9,7 @@ int ft_null(char *tmp, t_arg *res)
     if (tmp == NULL)
     {
         write(1, "(null)", 6);
-        res->len += 4;
+        res->len += 6;
         return (1);
     }
     return (0);

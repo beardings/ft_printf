@@ -26,7 +26,7 @@ char		*ft_itoa_base(uintmax_t value, uintmax_t base, t_arg *res)
     char	*str;
     int i;
 
-    if (2 > base || base > 16 || !(str = (char*)malloc(33)))
+    if (2 > base || base > 16 || !(str = (char*)malloc(32)))
         return (NULL);
     i = 0;
     calc(value, res->type, str, &i);

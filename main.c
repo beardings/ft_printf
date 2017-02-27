@@ -3,6 +3,7 @@
 //
 
 #include "ft_printf.h"
+#include "locale.h"
 
 int main(void)
 {
@@ -10,8 +11,11 @@ int main(void)
     //long long k = 4999999999;
     //ft_printf("\n(FT_): %%%-+z 04.12d end  Hello!");
     //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
-    ft_printf("\nmy: %.X %.0X", 0, 0);
-    printf("\nor: %.X %.0X", 0, 0);
+    setlocale(LC_ALL, "");
+    printf("\n");
+    ft_printf("%S", L"米");
+    printf("\n");
+    printf("%S", L"米");
     //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
     //printf("Hallo Nikolas%%% -20.47dhellogame", 12);
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"

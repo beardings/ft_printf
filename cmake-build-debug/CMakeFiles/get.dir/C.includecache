@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -14,11 +18,19 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
+/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/do_format.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/dowchar_t.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -107,12 +119,22 @@ stdlib.h
 /nfs/2016/m/mponomar/project/git/ft_printf/main.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+locale.h
+/nfs/2016/m/mponomar/project/git/ft_printf/locale.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/writepress.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/writewchar_t.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
