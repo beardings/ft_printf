@@ -258,6 +258,33 @@ castpress_s.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_s.c.s
 .PHONY : castpress_s.c.s
 
+checkcan.o: checkcan.c.o
+
+.PHONY : checkcan.o
+
+# target to build an object file
+checkcan.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checkcan.c.o
+.PHONY : checkcan.c.o
+
+checkcan.i: checkcan.c.i
+
+.PHONY : checkcan.i
+
+# target to preprocess a source file
+checkcan.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checkcan.c.i
+.PHONY : checkcan.c.i
+
+checkcan.s: checkcan.c.s
+
+.PHONY : checkcan.s
+
+# target to generate assembly for a file
+checkcan.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checkcan.c.s
+.PHONY : checkcan.c.s
+
 do_format.o: do_format.c.o
 
 .PHONY : do_format.o
@@ -798,6 +825,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
 .PHONY : main.c.s
 
+otherutf.o: otherutf.c.o
+
+.PHONY : otherutf.o
+
+# target to build an object file
+otherutf.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/otherutf.c.o
+.PHONY : otherutf.c.o
+
+otherutf.i: otherutf.c.i
+
+.PHONY : otherutf.i
+
+# target to preprocess a source file
+otherutf.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/otherutf.c.i
+.PHONY : otherutf.c.i
+
+otherutf.s: otherutf.c.s
+
+.PHONY : otherutf.s
+
+# target to generate assembly for a file
+otherutf.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/otherutf.c.s
+.PHONY : otherutf.c.s
+
 printhesh.o: printhesh.c.o
 
 .PHONY : printhesh.o
@@ -984,6 +1038,9 @@ help:
 	@echo "... castpress_s.o"
 	@echo "... castpress_s.i"
 	@echo "... castpress_s.s"
+	@echo "... checkcan.o"
+	@echo "... checkcan.i"
+	@echo "... checkcan.s"
 	@echo "... do_format.o"
 	@echo "... do_format.i"
 	@echo "... do_format.s"
@@ -1044,6 +1101,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... otherutf.o"
+	@echo "... otherutf.i"
+	@echo "... otherutf.s"
 	@echo "... printhesh.o"
 	@echo "... printhesh.i"
 	@echo "... printhesh.s"

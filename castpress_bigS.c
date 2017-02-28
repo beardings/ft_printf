@@ -4,77 +4,81 @@
 
 #include "ft_printf.h"
 
-void castpress_bigS(t_arg *res, int i, wchar_t *tmp)
+void castpress_bigS(t_arg *res, int i, wchar_t *tmp, int len)
 {
-    if (!(res->width) && !(res->minus) && !(res->zero) && (res->press))
+    if (!(res->width) && !(res->minus) && !(res->zero) && (res->press) > 0)
     {
-        if (res->press > i)
+        if (res->press > len)
             (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
-        dowchar_t(tmp, res, res->press);
-    }
-    else if ((res->width) && !(res->minus) && !(res->zero) && (res->press))
-    {
-        if (res->press > i)
-        {
-            tmp == NULL ?  res->width = res->width - 6 : 0;
-            res->width -= i;
-            writewidth(res);
-            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
-        }
         else
+            otherutf(tmp, res);
+    }
+    else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) > 0)
+    {
+        if (res->press > len && res->width > len)
         {
             tmp == NULL ?  res->width = res->width - 6 : 0;
-            res->width -= res->press;
+            res->width -= len;
             writewidth(res);
-            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, res->press);
+            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        }
+        else if (res->press > len && res->width < len)
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        }
+        else if (res->press < len && (res->width < len || res->width > len))
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            res->width -= (checkcan(tmp, res));
+            writewidth(res);
+            (ft_null((char *)tmp, res)) == 1 ? 0 : otherutf(tmp, res);
         }
     }
-    else if ((res->width) && !(res->minus) && (res->zero) && (res->press))
+    else if ((res->width) && !(res->minus) && (res->zero) && (res->press) > 0)
     {
-        if (res->press > i)
+        if (res->press > len && res->width > len)
         {
             tmp == NULL ?  res->width = res->width - 6 : 0;
-            res->width -= i;
+            res->width -= len;
             writezero(res);
             (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
         }
-        else
+        else if (res->press > len && res->width < len)
         {
             tmp == NULL ?  res->width = res->width - 6 : 0;
-            res->width -= res->press;
-            writezero(res);
-            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, res->press);
-        }
-    }
-    else if ((res->width) && (res->minus) && !(res->zero) && (res->press))
-    {
-        if (res->press > i)
-        {
-            res->width -= i;
-            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
-            writewidth(res);
-        }
-        else if (res->press < i && res->press != -1)
-        {
-            res->width -= res->press;
-            dowchar_t(tmp, res, res->press);
-            writewidth(res);
-        }
-        else if (res->press < i && res->press == -1)
-        {
-            dowchar_t(tmp, res, res->press);
-            writewidth(res);
-        }
-    }
-    else if (!(res->width) && (res->minus) && !(res->zero) && (res->press))
-    {
-        if (res->press > i)
-        {
-            res->width -= i;
-            writezero(res);
             (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
         }
-        else if (res->press < i)
-            dowchar_t(tmp, res, res->press);
+        else if (res->press < len && (res->width < len || res->width > len))
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            res->width -= (checkcan(tmp, res));
+            writezero(res);
+            (ft_null((char *)tmp, res)) == 1 ? 0 : otherutf(tmp, res);
+        }
     }
+    else if ((res->width) && (res->minus) && !(res->zero) && (res->press) > 0)
+    {
+        if (res->press > len && res->width > len)
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
+            res->width -= len;
+            writewidth(res);
+        }
+        else if (res->press > len && res->width < len)
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        }
+        else if (res->press < len && (res->width < len || res->width > len))
+        {
+            tmp == NULL ?  res->width = res->width - 6 : 0;
+            (ft_null((char *)tmp, res)) == 1 ? 0 : otherutf(tmp, res);
+            res->width -= (checkcan(tmp, res));
+            writewidth(res);
+        }
+    }
+    else
+        (ft_null((char *)tmp, res)) == 1 ? 0 : dowchar_t(tmp, res, i);
 }

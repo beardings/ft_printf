@@ -26,6 +26,10 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
+/nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/do_format.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -121,6 +125,10 @@ ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 locale.h
 /nfs/2016/m/mponomar/project/git/ft_printf/locale.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c
 ft_printf.h

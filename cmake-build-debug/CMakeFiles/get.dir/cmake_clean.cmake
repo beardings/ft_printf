@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/writepress.c.o"
   "CMakeFiles/get.dir/dowchar_t.c.o"
   "CMakeFiles/get.dir/castpress_bigS.c.o"
+  "CMakeFiles/get.dir/otherutf.c.o"
+  "CMakeFiles/get.dir/checkcan.c.o"
   "get.pdb"
   "get"
 )

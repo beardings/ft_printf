@@ -199,7 +199,5 @@ int         ft_printf(const char *format, ...)
     printf("\nmin: %d", res->minus);
     printf("\npre: %d", res->press);
     printf("\nwidth: %d", res->width);*/
-    //printf("\nlen: %d", (int)len);
-    //printf("\n");
     return ((int)len);
 }

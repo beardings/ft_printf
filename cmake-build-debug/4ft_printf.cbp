@@ -100,6 +100,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/do_format.c">
 			<Option target="get"/>
 		</Unit>
@@ -161,6 +164,9 @@
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c">

@@ -34,5 +34,7 @@ set(SOURCE_FILES main.c /
         castflag_bigS.c /
         writepress.c /
         dowchar_t.c /
-        castpress_bigS.c)
+        castpress_bigS.c /
+        otherutf.c /
+        checkcan.c)
 add_executable(get ${SOURCE_FILES})

@@ -21,6 +21,10 @@ CMakeFiles/get.dir/castpress_s.c.o: ../castpress_s.c
 CMakeFiles/get.dir/castpress_s.c.o: ../ft_printf.h
 CMakeFiles/get.dir/castpress_s.c.o: ../libft/libft.h
 
+CMakeFiles/get.dir/checkcan.c.o: ../checkcan.c
+CMakeFiles/get.dir/checkcan.c.o: ../ft_printf.h
+CMakeFiles/get.dir/checkcan.c.o: ../libft/libft.h
+
 CMakeFiles/get.dir/do_format.c.o: ../do_format.c
 CMakeFiles/get.dir/do_format.c.o: ../ft_printf.h
 CMakeFiles/get.dir/do_format.c.o: ../libft/libft.h
@@ -86,6 +90,10 @@ CMakeFiles/get.dir/libft/ft_strnew.c.o: ../libft/libft.h
 CMakeFiles/get.dir/main.c.o: ../ft_printf.h
 CMakeFiles/get.dir/main.c.o: ../libft/libft.h
 CMakeFiles/get.dir/main.c.o: ../main.c
+
+CMakeFiles/get.dir/otherutf.c.o: ../ft_printf.h
+CMakeFiles/get.dir/otherutf.c.o: ../libft/libft.h
+CMakeFiles/get.dir/otherutf.c.o: ../otherutf.c
 
 CMakeFiles/get.dir/printhesh.c.o: ../ft_printf.h
 CMakeFiles/get.dir/printhesh.c.o: ../libft/libft.h
