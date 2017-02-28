@@ -4,12 +4,12 @@
 
 #include "ft_printf.h"
 
-int ft_null(char *tmp, t_arg *res)
+int ft_null(char *tmp, t_arg *res, int len)
 {
     if (tmp == NULL)
     {
-        write(1, "(null)", 6);
-        res->len += 6;
+        write(1, "(null)", len);
+        res->len += len;
         return (1);
     }
     return (0);

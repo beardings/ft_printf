@@ -14,20 +14,20 @@ int castflag_s(t_arg *res)
     tmp != NULL ? i = (int)ft_strlen(tmp) : 0;
     if (!(res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
-        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
         res->len += i;
     }
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
         tmp == NULL ?  res->width = res->width - 6 : 0;
-        writewidth(res);
-        (ft_null(tmp, res)) == 1 || (i - res->width) < 0 ? 0 : ft_putstr(tmp);
+        res->width > i ? writewidth(res) : 0;
+        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp), res->len += i;
     }
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press) == -1)
     {
         tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
-        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
         writewidth(res);
         res->len += i;
     }
@@ -44,14 +44,14 @@ int castflag_s(t_arg *res)
         tmp == NULL ?  res->width = res->width - 6 : 0;
         res->width -= i;
         writezero(res);
-        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
         res->len += i;
     }
     else if (res->press)
         castpress_s(res, i, tmp);
     else
     {
-        (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
         res->len = res->len + i;
     }
     return (0);

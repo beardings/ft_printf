@@ -143,7 +143,7 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
         {
             res->type == 'p' ? preox(res) : 0;
             ft_putstr(tmp);
-            res->width -= len + 2;
+            res->width -= len;
             writewidth(res);
             res->len += len;
         }

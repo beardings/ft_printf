@@ -10,7 +10,7 @@ void castpress_s(t_arg *res, int i, char *tmp)
     {
         if (res->press > i)
         {
-            (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+            (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
             res->len += i;
         }
         else
@@ -20,18 +20,17 @@ void castpress_s(t_arg *res, int i, char *tmp)
     {
         if (res->press > i)
         {
-            tmp == NULL ?  res->width = res->width - 6 : 0;
-            res->width -= i;
+            tmp == NULL && res->press < 6 ?  res->width -= res->press : 0;
+            tmp != NULL ? res->width -= i : 0;
             writewidth(res);
-            (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
-            res->len += i;
+            (ft_null(tmp, res, res->press)) == 1 ? 0 : ft_putstrnew(tmp, res->press, res);
         }
         else
         {
             tmp == NULL ?  res->width = res->width - 6 : 0;
             res->width -= res->press;
             writewidth(res);
-            (ft_null(tmp, res)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
+            (ft_null(tmp, res, 6)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
         }
     }
     else if ((res->width) && !(res->minus) && (res->zero) && (res->press))
@@ -41,7 +40,7 @@ void castpress_s(t_arg *res, int i, char *tmp)
             tmp == NULL ?  res->width = res->width - 6 : 0;
             res->width -= i;
             writezero(res);
-            (ft_null(tmp, res)) == 1 ? 0 : ft_putstr(tmp);
+            (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
             res->len += i;
         }
         else
@@ -49,7 +48,7 @@ void castpress_s(t_arg *res, int i, char *tmp)
             tmp == NULL ?  res->width = res->width - 6 : 0;
             res->width -= res->press;
             writezero(res);
-            (ft_null(tmp, res)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
+            (ft_null(tmp, res, 6)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
         }
     }
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press))
