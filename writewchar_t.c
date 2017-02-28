@@ -15,14 +15,14 @@ void writewchar_t(wchar_t c, t_arg *res)
     {
         ft_putchar((char)((c >> 6) + 0xC0));
         ft_putchar((char)((c & 0x3F) + 0x80));
-        res->len += 1;
+        res->len += 2;
     }
     else if (c <= 0xFFFF)
     {
         ft_putchar((char)((c >> 12) + 0xE0));
         ft_putchar((char)(((c >> 6) & 0x3F) + 0x80));
         ft_putchar((char)((c & 0x3F) + 0x80));
-        res->len += 1;
+        res->len += 3;
     }
     else if (c <= 0x10FFFF)
     {
@@ -30,6 +30,6 @@ void writewchar_t(wchar_t c, t_arg *res)
         ft_putchar((char)(((c >> 12) & 0x3F) + 0x80));
         ft_putchar((char)(((c >> 6) & 0x3F) + 0x80));
         ft_putchar((char)((c & 0x3F) + 0x80));
-        res->len += 1;
+        res->len += 4;
     }
 }

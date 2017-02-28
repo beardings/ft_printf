@@ -14,10 +14,10 @@ int main(void)
     //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
      setlocale(LC_ALL, "");
     printf("\n");
-    ft_printf("my: %.4S", L"жM-M-^QжM-^XѓдЄM-еM-^O™зM-^LЂгM-M-^B");
+    ft_printf("my: %S", L"жM-M-^QжM-^XѓдЄM-еM-^O™зM-^LЂгM-M-^B");
     //ft_printf("%S", L"米");
     printf("\n");
-    printf("or: %.4S", L"жM-M-^QжM-^XѓдЄM-еM-^O™зM-^LЂгM-M-^B");
+    printf("or: %S", L"жM-M-^QжM-^XѓдЄM-еM-^O™зM-^LЂгM-M-^B");
     //printf("%S", L"米");
     //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
     //printf("Hallo Nikolas%%% -20.47dhellogame", 12);
