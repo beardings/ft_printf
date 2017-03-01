@@ -35,7 +35,7 @@ char    *cast_mod(t_arg *res)
         mun = (uintmax_t)res->tmp;
     else if (res->flag == 6 && res->type != 'p')
         mun = (size_t)res->tmp;
-    else if (res->type == 'x' || res->type == 'o' || res->type == 'u')
+    else if (res->type == 'x' || res->type == 'o' || res->type == 'u' || res->type == 'X')
         mun = (unsigned int)res->tmp;
     else
         mun = (unsigned long)res->tmp;
@@ -79,7 +79,7 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
             ft_putstr(tmp);
         res->len += len;
     }
-    else if ((res->width) && (res->press) && !(res->zero) && !(res->minus) && !(res->hesh))
+    else if ((res->width) && (res->press)  && !(res->zero) && !(res->minus) && !(res->hesh))
     {
         if (res->press > len)
         {
@@ -93,9 +93,9 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
         }
         else
         {
-            res->type == 'p' ? preox(res) : 0;
-            res->width -= len;
+            res->type == 'p' ? res->width -= len + 2 : 0;
             writewidth(res);
+            res->type == 'p' ? preox(res) : 0;
             ft_putstr(tmp);
             res->len += len;
         }
@@ -370,6 +370,38 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
         res->type == 'p' ? preox(res) : 0;
         ft_putstr(tmp);
         res->len += len;
+    }
+    else if (!(res->width) && (res->press) == 0 && !(res->zero) && !(res->minus) && (res->hesh))
+    {
+        res->type == 'p' ? preox(res) : 0;
+        res->type != 'x' ? printhesh(res) : 0;
+        tmp[0] != '0' ? ft_putstr(tmp), res->len += len : 0;
+
+    }
+    else if (!(res->width) && (res->press) == 0 && (res->zero) && !(res->minus) && (res->hesh))
+    {
+        res->type == 'p' ? preox(res) : 0;
+        res->type != 'x' ? printhesh(res) : 0;
+        tmp[0] != '0' ? ft_putstr(tmp), res->len += len : 0;
+
+    }
+    else if ((res->width) && (res->press) == 0 && !(res->zero) && !(res->minus) && !(res->hesh))
+    {
+        res->type == 'p' ? preox(res) : 0;
+        writewidth(res);
+        tmp[0] != '0' ? ft_putstr(tmp), res->len += len : 0;
+    }
+    else if ((res->width) && (res->press) == 0 && (res->zero) && !(res->minus) && !(res->hesh))
+    {
+        res->type == 'p' ? preox(res) : 0;
+        writewidth(res);
+        tmp[0] != '0' ? ft_putstr(tmp), res->len += len : 0;
+    }
+    else if (!(res->width) && (res->press) == 0 && !(res->minus) && !(res->hesh))
+    {
+        res->type == 'p' ? preox(res) : 0;
+        res->zero > 0 ? writezero(res) : writewidth(res);
+        tmp[0] != '0' ? ft_putstr(tmp), res->len += len : 0;
     }
     return (0);
 }

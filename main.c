@@ -7,7 +7,6 @@
 
 int main(void)
 {
-    const wchar_t B[] = L"ድመቶች ሰዎች አልወደውም.";
     //int i;
     //unsigned long  i = 4294967296;
     //long long k = 4999999999;
@@ -15,10 +14,10 @@ int main(void)
     //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
      setlocale(LC_ALL, "");
     printf("\n");
-    printf("|len: %i", ft_printf("my: ));
+    printf("|len: %i", ft_printf("my: {%05.%}", 0));
     //ft_printf("%S", L"米");
     printf("\n");
-    printf("|len: %i", printf("or: ));
+    printf("|len: %i", printf("or: {%05.%}", 0));
     //printf("%S", L"米");
     //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
     //printf("Hallo Nikolas%%% -20.47dhellogame", 12);

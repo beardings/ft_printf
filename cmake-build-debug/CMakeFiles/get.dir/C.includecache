@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigC.c
-ft_printf.h
-/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
-
 /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -124,17 +120,11 @@ string.h
 stdlib.h
 -
 
-/nfs/2016/m/mponomar/project/git/ft_printf/main2.c
-stdio.h
--
-stddef.h
--
+/nfs/2016/m/mponomar/project/git/ft_printf/main.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 locale.h
--
-limits.h
--
-errno.h
--
+/nfs/2016/m/mponomar/project/git/ft_printf/locale.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c
 ft_printf.h

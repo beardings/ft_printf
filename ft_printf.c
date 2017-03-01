@@ -171,6 +171,7 @@ t_arg *createres()
     res->zero = 0;
     res->press = -1;
     res->width = 0;
+    res->pro = 0;
     return (res);
 }
 

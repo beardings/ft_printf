@@ -30,6 +30,7 @@ typedef struct  s_arg
     char        type;
     void        *tmp;
     int         len;
+    int         pro;
 }               t_arg;
 
 

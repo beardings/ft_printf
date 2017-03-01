@@ -20,7 +20,7 @@ int castflag_s(t_arg *res)
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
     {
         tmp == NULL ?  res->width = res->width - 6 : 0;
-        res->width > i ? writewidth(res) : 0;
+        res->width > i ? res->width -= i, writewidth(res) : 0;
         (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp), res->len += i;
     }
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press) == -1)
@@ -51,8 +51,13 @@ int castflag_s(t_arg *res)
         castpress_s(res, i, tmp);
     else
     {
-        (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
-        res->len = res->len + i;
+        if (res->press == 0 && res->width > 0)
+            res->zero > 0 ? writezero(res) : writewidth(res);
+        else
+        {
+            (ft_null(tmp, res, 6)) == 1 ? 0 : ft_putstr(tmp);
+            res->len = res->len + i;
+        }
     }
     return (0);
 }

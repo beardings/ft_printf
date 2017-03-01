@@ -6,7 +6,7 @@
 
 void castpress_s(t_arg *res, int i, char *tmp)
 {
-    if (!(res->width) && !(res->minus) && !(res->zero) && (res->press))
+    if (!(res->width) && !(res->minus) && !(res->zero) && (res->press) > 0)
     {
         if (res->press > i)
         {
@@ -16,14 +16,13 @@ void castpress_s(t_arg *res, int i, char *tmp)
         else
             ft_putstrnew(tmp, res->press, res);
     }
-    else if ((res->width) && !(res->minus) && !(res->zero) && (res->press))
+    else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) > 0)
     {
         if (res->press > i)
         {
-            tmp == NULL && res->press < 6 ?  res->width -= res->press : 0;
-            tmp != NULL ? res->width -= i : 0;
+            tmp != NULL && i > 0? res->width -= i : 0;
             writewidth(res);
-            (ft_null(tmp, res, res->press)) == 1 ? 0 : ft_putstrnew(tmp, res->press, res);
+            (ft_null(tmp, res, res->press)) == 1 || i == 0 ? 0 : ft_putstrnew(tmp, i, res);
         }
         else
         {
@@ -33,7 +32,7 @@ void castpress_s(t_arg *res, int i, char *tmp)
             (ft_null(tmp, res, 6)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
         }
     }
-    else if ((res->width) && !(res->minus) && (res->zero) && (res->press))
+    else if ((res->width) && !(res->minus) && (res->zero) && (res->press) > 0)
     {
         if (res->press > i)
         {
@@ -51,13 +50,13 @@ void castpress_s(t_arg *res, int i, char *tmp)
             (ft_null(tmp, res, 6)) == 1 ? 0 :  ft_putstrnew(tmp, res->press, res);
         }
     }
-    else if ((res->width) && (res->minus) && !(res->zero) && (res->press))
+    else if ((res->width) && (res->minus) && !(res->zero) && (res->press) > 0)
     {
         res->press > i ? res->width -= i, ft_putstr(tmp), writewidth(res), res->len += i : 0;
         res->press < i && res->press != -1 ? res->width -= res->press, ft_putstrnew(tmp, res->press, res), writewidth(res): 0;
         res->press < i && res->press == -1 ? ft_putstrnew(tmp, res->press, res), writewidth(res) : 0;
     }
-    else if (!(res->width) && (res->minus) && !(res->zero) && (res->press))
+    else if (!(res->width) && (res->minus) && !(res->zero) && (res->press) > 0)
     {
         res->press > i ? res->width -= i, writezero(res), ft_putstr(tmp), res->len += i : 0;
         res->press < i ? ft_putstrnew(tmp, res->press, res) : 0;
