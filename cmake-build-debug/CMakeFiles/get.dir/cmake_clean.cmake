@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/get.dir/main.c.o"
+  "CMakeFiles/get.dir/main2.c.o"
   "CMakeFiles/get.dir/ft_printf.c.o"
   "CMakeFiles/get.dir/libft/ft_putchar.c.o"
   "CMakeFiles/get.dir/libft/ft_atoi.c.o"
@@ -32,6 +32,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/castpress_bigS.c.o"
   "CMakeFiles/get.dir/otherutf.c.o"
   "CMakeFiles/get.dir/checkcan.c.o"
+  "CMakeFiles/get.dir/cast_mod.c.o"
+  "CMakeFiles/get.dir/cast_standart_for_base.c.o"
+  "CMakeFiles/get.dir/preox.c.o"
+  "CMakeFiles/get.dir/cast_mod_base.c.o"
+  "CMakeFiles/get.dir/base.c.o"
   "get.pdb"
   "get"
 )

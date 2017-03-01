@@ -3,7 +3,7 @@ project(4ft_printf)
 
 set(CMAKE_C_FLAGS)
 
-set(SOURCE_FILES main.c /
+set(SOURCE_FILES main2.c /
         ft_printf.c /
         libft/ft_putchar.c /
         libft/ft_atoi.c /
@@ -36,5 +36,10 @@ set(SOURCE_FILES main.c /
         dowchar_t.c /
         castpress_bigS.c /
         otherutf.c /
-        checkcan.c /)
+        checkcan.c /
+        cast_mod.c /
+        cast_standart_for_base.c /
+        preox.c /
+        cast_mod_base.c /
+        base.c)
 add_executable(get ${SOURCE_FILES})

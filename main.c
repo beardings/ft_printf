@@ -8,9 +8,10 @@
 # define CNV "u"
 int main(void)
 {
+    char c;
     printf("\n");
-    printf("|len: %i", ft_printf("my: |%5h h"CNV"|\t|%20l l"CNV"|", SHRT_MIN,LONG_MIN));
+    printf("|len: %i", ft_printf("my: %#08x", 42));
     printf("\n");
-    printf("|len: %i", printf("or: |%5h h"CNV"|\t|%20l l"CNV"|", SHRT_MIN,LONG_MIN));
+    printf("|len: %i", printf("or: %#08x", 42));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 }

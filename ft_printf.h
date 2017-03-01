@@ -45,7 +45,6 @@ int             number(const char *format, size_t i);
 void            *do_format(t_arg *res);
 void            upperarg(t_arg *res);
 t_arg           *createres();
-
 void            writewidth(t_arg *res);
 void            castflag_c(t_arg *res);
 void            writezero(t_arg *res);
@@ -62,5 +61,10 @@ void            writepress(t_arg *res);
 void            castpress_bigS(t_arg *res, int i, wchar_t *tmp, int len);
 void            otherutf(wchar_t *tmp, t_arg *res);
 int             checkcan(wchar_t *tmp, t_arg *res);
+char            *cast_mod(t_arg *res);
+void            cast_standart_for_base(t_arg *res);
+void            preox(t_arg *res);
+char            *base(t_arg *res, uintmax_t mun);
+int             cast_mod_base(char *tmp, int len, t_arg *res);
 
 #endif

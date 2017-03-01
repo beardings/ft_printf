@@ -123,6 +123,114 @@ get/fast:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/build
 .PHONY : get/fast
 
+base.o: base.c.o
+
+.PHONY : base.o
+
+# target to build an object file
+base.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/base.c.o
+.PHONY : base.c.o
+
+base.i: base.c.i
+
+.PHONY : base.i
+
+# target to preprocess a source file
+base.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/base.c.i
+.PHONY : base.c.i
+
+base.s: base.c.s
+
+.PHONY : base.s
+
+# target to generate assembly for a file
+base.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/base.c.s
+.PHONY : base.c.s
+
+cast_mod.o: cast_mod.c.o
+
+.PHONY : cast_mod.o
+
+# target to build an object file
+cast_mod.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod.c.o
+.PHONY : cast_mod.c.o
+
+cast_mod.i: cast_mod.c.i
+
+.PHONY : cast_mod.i
+
+# target to preprocess a source file
+cast_mod.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod.c.i
+.PHONY : cast_mod.c.i
+
+cast_mod.s: cast_mod.c.s
+
+.PHONY : cast_mod.s
+
+# target to generate assembly for a file
+cast_mod.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod.c.s
+.PHONY : cast_mod.c.s
+
+cast_mod_base.o: cast_mod_base.c.o
+
+.PHONY : cast_mod_base.o
+
+# target to build an object file
+cast_mod_base.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_base.c.o
+.PHONY : cast_mod_base.c.o
+
+cast_mod_base.i: cast_mod_base.c.i
+
+.PHONY : cast_mod_base.i
+
+# target to preprocess a source file
+cast_mod_base.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_base.c.i
+.PHONY : cast_mod_base.c.i
+
+cast_mod_base.s: cast_mod_base.c.s
+
+.PHONY : cast_mod_base.s
+
+# target to generate assembly for a file
+cast_mod_base.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_base.c.s
+.PHONY : cast_mod_base.c.s
+
+cast_standart_for_base.o: cast_standart_for_base.c.o
+
+.PHONY : cast_standart_for_base.o
+
+# target to build an object file
+cast_standart_for_base.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_standart_for_base.c.o
+.PHONY : cast_standart_for_base.c.o
+
+cast_standart_for_base.i: cast_standart_for_base.c.i
+
+.PHONY : cast_standart_for_base.i
+
+# target to preprocess a source file
+cast_standart_for_base.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_standart_for_base.c.i
+.PHONY : cast_standart_for_base.c.i
+
+cast_standart_for_base.s: cast_standart_for_base.c.s
+
+.PHONY : cast_standart_for_base.s
+
+# target to generate assembly for a file
+cast_standart_for_base.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_standart_for_base.c.s
+.PHONY : cast_standart_for_base.c.s
+
 castflag_bigS.o: castflag_bigS.c.o
 
 .PHONY : castflag_bigS.o
@@ -798,32 +906,32 @@ libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/libft/ft_strnew.c.s
 .PHONY : libft/ft_strnew.c.s
 
-main.o: main.c.o
+main2.o: main2.c.o
 
-.PHONY : main.o
+.PHONY : main2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.o
-.PHONY : main.c.o
+main2.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.o
+.PHONY : main2.c.o
 
-main.i: main.c.i
+main2.i: main2.c.i
 
-.PHONY : main.i
+.PHONY : main2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.i
-.PHONY : main.c.i
+main2.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.i
+.PHONY : main2.c.i
 
-main.s: main.c.s
+main2.s: main2.c.s
 
-.PHONY : main.s
+.PHONY : main2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
-.PHONY : main.c.s
+main2.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.s
+.PHONY : main2.c.s
 
 otherutf.o: otherutf.c.o
 
@@ -851,6 +959,33 @@ otherutf.s: otherutf.c.s
 otherutf.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/otherutf.c.s
 .PHONY : otherutf.c.s
+
+preox.o: preox.c.o
+
+.PHONY : preox.o
+
+# target to build an object file
+preox.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/preox.c.o
+.PHONY : preox.c.o
+
+preox.i: preox.c.i
+
+.PHONY : preox.i
+
+# target to preprocess a source file
+preox.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/preox.c.i
+.PHONY : preox.c.i
+
+preox.s: preox.c.s
+
+.PHONY : preox.s
+
+# target to generate assembly for a file
+preox.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/preox.c.s
+.PHONY : preox.c.s
 
 printhesh.o: printhesh.c.o
 
@@ -1023,6 +1158,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... get"
+	@echo "... base.o"
+	@echo "... base.i"
+	@echo "... base.s"
+	@echo "... cast_mod.o"
+	@echo "... cast_mod.i"
+	@echo "... cast_mod.s"
+	@echo "... cast_mod_base.o"
+	@echo "... cast_mod_base.i"
+	@echo "... cast_mod_base.s"
+	@echo "... cast_standart_for_base.o"
+	@echo "... cast_standart_for_base.i"
+	@echo "... cast_standart_for_base.s"
 	@echo "... castflag_bigS.o"
 	@echo "... castflag_bigS.i"
 	@echo "... castflag_bigS.s"
@@ -1098,12 +1245,15 @@ help:
 	@echo "... libft/ft_strnew.o"
 	@echo "... libft/ft_strnew.i"
 	@echo "... libft/ft_strnew.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main2.o"
+	@echo "... main2.i"
+	@echo "... main2.s"
 	@echo "... otherutf.o"
 	@echo "... otherutf.i"
 	@echo "... otherutf.s"
+	@echo "... preox.o"
+	@echo "... preox.i"
+	@echo "... preox.s"
 	@echo "... printhesh.o"
 	@echo "... printhesh.i"
 	@echo "... printhesh.s"

@@ -85,6 +85,18 @@
 		<Unit filename="//">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/base.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_base.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c">
 			<Option target="get"/>
 		</Unit>
@@ -163,10 +175,13 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strnew.c">
 			<Option target="get"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main2.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/preox.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c">

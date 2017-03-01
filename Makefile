@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/03/01 13:49:11 by mponomar         ###   ########.fr        #
+#    Updated: 2017/03/01 19:10:09 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -43,7 +43,12 @@ SOURCE = ft_printf.c \
 		dowchar_t.c \
 		castpress_bigS.c \
 		otherutf.c \
-		checkcan.c
+		checkcan.c \
+		cast_mod.c \
+		cast_standart_for_base.c \
+		preox.c \
+		cast_mod_base.c \
+		base.c
 
 OBJECTS = $(SOURCE:.c=.o)
 
