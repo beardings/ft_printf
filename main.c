@@ -15,10 +15,10 @@ int main(void)
     //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
      setlocale(LC_ALL, "");
     printf("\n");
-    printf("|len: %i", ft_printf("my: |%S|\t|%S|\t|%C|\t|%S|",L"Wide sample string..",L"米",L'米',L""));
+    printf("|len: %i", ft_printf("my: |%lc| |%-06lc|", L'ÊM-^ZM-^V', L'ÿ≠'));
     //ft_printf("%S", L"米");
     printf("\n");
-    printf("|len: %i", printf("or: |%S|\t|%S|\t|%C|\t|%S|",L"Wide sample string..",L"米",L'米',L""));
+    printf("|len: %i", printf("or: |%lc| |%-06lc|", L'ÊM-^ZM-^V', L'ÿ≠'));
     //printf("%S", L"米");
     //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
     //printf("Hallo Nikolas%%% -20.47dhellogame", 12);

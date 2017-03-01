@@ -93,6 +93,13 @@ void castpress_bigS(t_arg *res, int i, wchar_t *tmp, int len)
             writewidth(res);
         }
     }
+        else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == 0)
+    {
+        if (res->width < len)
+            writewidth(res);
+        else
+            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+    }
     else
     {
         if (res->press > len)

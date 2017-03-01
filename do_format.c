@@ -396,8 +396,9 @@ void    *do_format(t_arg *res)
         cast_standart_for_base(res);
     if (res->type == 'x' || res->type == 'X' || res->type == 'p' )
         cast_standart_for_base(res);
-    res->type == 'c' || res->type == 'C' ? castflag_c(res) : 0;
+    res->type == 'c' ? castflag_c(res) : 0;
     res->type == 's' ? castflag_s(res) : 0;
     res->type == 'S' ? castflag_bigS(res) : 0;
+    res->type == 'C' ? castflag_bigC(res) : 0;
     return (0);
 }

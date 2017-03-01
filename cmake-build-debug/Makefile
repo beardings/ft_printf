@@ -123,6 +123,33 @@ get/fast:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/build
 .PHONY : get/fast
 
+castflag_bigC.o: castflag_bigC.c.o
+
+.PHONY : castflag_bigC.o
+
+# target to build an object file
+castflag_bigC.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.o
+.PHONY : castflag_bigC.c.o
+
+castflag_bigC.i: castflag_bigC.c.i
+
+.PHONY : castflag_bigC.i
+
+# target to preprocess a source file
+castflag_bigC.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.i
+.PHONY : castflag_bigC.c.i
+
+castflag_bigC.s: castflag_bigC.c.s
+
+.PHONY : castflag_bigC.s
+
+# target to generate assembly for a file
+castflag_bigC.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.s
+.PHONY : castflag_bigC.c.s
+
 castflag_bigS.o: castflag_bigS.c.o
 
 .PHONY : castflag_bigS.o
@@ -798,32 +825,32 @@ libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/libft/ft_strnew.c.s
 .PHONY : libft/ft_strnew.c.s
 
-main2.o: main2.c.o
+main.o: main.c.o
 
-.PHONY : main2.o
+.PHONY : main.o
 
 # target to build an object file
-main2.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.o
-.PHONY : main2.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.o
+.PHONY : main.c.o
 
-main2.i: main2.c.i
+main.i: main.c.i
 
-.PHONY : main2.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main2.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.i
-.PHONY : main2.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.i
+.PHONY : main.c.i
 
-main2.s: main2.c.s
+main.s: main.c.s
 
-.PHONY : main2.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main2.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.s
-.PHONY : main2.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
+.PHONY : main.c.s
 
 otherutf.o: otherutf.c.o
 
@@ -1023,6 +1050,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... get"
+	@echo "... castflag_bigC.o"
+	@echo "... castflag_bigC.i"
+	@echo "... castflag_bigC.s"
 	@echo "... castflag_bigS.o"
 	@echo "... castflag_bigS.i"
 	@echo "... castflag_bigS.s"
@@ -1098,9 +1128,9 @@ help:
 	@echo "... libft/ft_strnew.o"
 	@echo "... libft/ft_strnew.i"
 	@echo "... libft/ft_strnew.s"
-	@echo "... main2.o"
-	@echo "... main2.i"
-	@echo "... main2.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... otherutf.o"
 	@echo "... otherutf.i"
 	@echo "... otherutf.s"

@@ -89,7 +89,7 @@ int         checkhzmp(size_t i, const char *format, t_arg *res)
     format[i] == '0' ? res->zero = 1, k++ : 0;
     format[i] == '-' ? res->minus = 1, k++ : 0;
     format[i] == ' ' ? res->space = 1, k++ : 0;
-    format[i] == '.' ? k = 1 : 0;
+    format[i] == '.' ? res->press = 0, k = 1 : 0;
     format[i] == '.' && (format[i + 1] > 48 && format[i + 1] < 58) ? res->press = number(format, i + 1), k = 1 + ft_lenint(res->press) : 0;
     (format[i] > 48 && format[i] < 58) && format[i - 1] != '.' ? res->width = number(format, i), k = ft_lenint(res->width) : 0;
     return (k > 0 ? k : 0);

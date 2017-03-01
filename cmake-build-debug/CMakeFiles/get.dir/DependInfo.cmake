@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigC.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_bigC.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_bigS.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_c.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/castflag_s.c.o"
@@ -29,7 +30,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strdup.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_strdup.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strlen.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_strlen.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strnew.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/libft/ft_strnew.c.o"
-  "/nfs/2016/m/mponomar/project/git/ft_printf/main2.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/main2.c.o"
+  "/nfs/2016/m/mponomar/project/git/ft_printf/main.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/main.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/otherutf.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/printhesh.c.o"
   "/nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c" "/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles/get.dir/upperarg.c.o"

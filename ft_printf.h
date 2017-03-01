@@ -60,5 +60,6 @@ void            writepress(t_arg *res);
 void            castpress_bigS(t_arg *res, int i, wchar_t *tmp, int len);
 void            otherutf(wchar_t *tmp, t_arg *res);
 int             checkcan(wchar_t *tmp, t_arg *res);
+void            castflag_bigC(t_arg *res);
 
 #endif
