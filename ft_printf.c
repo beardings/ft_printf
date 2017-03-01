@@ -67,7 +67,7 @@ int         checkflags(size_t i, const char *format, t_arg *res)
     if (format[i] == 'h' && format[i + 1] == 'h')
         res->flag <= 1 ? res->flag = 1, k += 2 : 0;
     if (format[i] == 'h' && format[i + 1] != 'h')
-        res->flag <= 2 ? res->flag = 2, k++ : 0;
+        res->flag <= 2 ? res->flag = 2, res->h++, k++ : 0;
     if (format[i] == 'l' && format[i + 1] != 'l')
         res->flag <= 3 ? res->flag = 3, k++ : 0;
     if (format[i] == 'l' && format[i + 1] == 'l')
@@ -76,6 +76,10 @@ int         checkflags(size_t i, const char *format, t_arg *res)
         res->flag <= 5 ? res->flag = 5, k++ : 0;
     if (format[i] == 'z')
         res->flag <= 6 ? res->flag = 6, k++ : 0;
+    if (res->h > 0 && (res->h % 2) > 0)
+        res->flag <= 2 ? res->flag = 2 : 0;
+    if (res->h > 0 && (res->h % 2) == 0)
+        res->flag <= 2 ? res->flag = 1 : 0;
     return (res->flag > 0 && k != 0 ? k : 0);
 }
 
@@ -175,6 +179,7 @@ t_arg *createres()
     res->press = -1;
     res->width = 0;
     res->pro = 0;
+    res->h = 0;
     return (res);
 }
 

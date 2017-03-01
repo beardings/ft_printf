@@ -31,6 +31,7 @@ typedef struct  s_arg
     void        *tmp;
     int         len;
     int         pro;
+    int         h;
 }               t_arg;
 
 
