@@ -36,6 +36,5 @@ set(SOURCE_FILES main2.c /
         dowchar_t.c /
         castpress_bigS.c /
         otherutf.c /
-        checkcan.c /
-        castflag_bigC.c)
+        checkcan.c /)
 add_executable(get ${SOURCE_FILES})

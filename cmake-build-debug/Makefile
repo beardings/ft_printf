@@ -123,33 +123,6 @@ get/fast:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/build
 .PHONY : get/fast
 
-castflag_bigC.o: castflag_bigC.c.o
-
-.PHONY : castflag_bigC.o
-
-# target to build an object file
-castflag_bigC.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.o
-.PHONY : castflag_bigC.c.o
-
-castflag_bigC.i: castflag_bigC.c.i
-
-.PHONY : castflag_bigC.i
-
-# target to preprocess a source file
-castflag_bigC.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.i
-.PHONY : castflag_bigC.c.i
-
-castflag_bigC.s: castflag_bigC.c.s
-
-.PHONY : castflag_bigC.s
-
-# target to generate assembly for a file
-castflag_bigC.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigC.c.s
-.PHONY : castflag_bigC.c.s
-
 castflag_bigS.o: castflag_bigS.c.o
 
 .PHONY : castflag_bigS.o
@@ -1050,9 +1023,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... get"
-	@echo "... castflag_bigC.o"
-	@echo "... castflag_bigC.i"
-	@echo "... castflag_bigC.s"
 	@echo "... castflag_bigS.o"
 	@echo "... castflag_bigS.i"
 	@echo "... castflag_bigS.s"

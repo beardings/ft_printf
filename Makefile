@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/03/01 13:06:48 by mponomar         ###   ########.fr        #
+#    Updated: 2017/03/01 13:49:11 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -43,8 +43,7 @@ SOURCE = ft_printf.c \
 		dowchar_t.c \
 		castpress_bigS.c \
 		otherutf.c \
-		checkcan.c \
-		castflag_bigC.c
+		checkcan.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

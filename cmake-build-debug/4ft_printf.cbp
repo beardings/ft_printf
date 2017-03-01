@@ -85,9 +85,6 @@
 		<Unit filename="//">
 			<Option target="get"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigC.c">
-			<Option target="get"/>
-		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c">
 			<Option target="get"/>
 		</Unit>

@@ -32,7 +32,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/castpress_bigS.c.o"
   "CMakeFiles/get.dir/otherutf.c.o"
   "CMakeFiles/get.dir/checkcan.c.o"
-  "CMakeFiles/get.dir/castflag_bigC.c.o"
   "get.pdb"
   "get"
 )
