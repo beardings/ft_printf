@@ -14,10 +14,10 @@ int main(void)
     //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
      setlocale(LC_ALL, "");
     printf("\n");
-    printf("|len: %i", ft_printf("my: {%05.%}", 0));
+    printf("|len: %i", ft_printf("my: %"));
     //ft_printf("%S", L"米");
     printf("\n");
-    printf("|len: %i", printf("or: {%05.%}", 0));
+    printf("|len: %i", printf("or: %"));
     //printf("%S", L"米");
     //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
     //printf("Hallo Nikolas%%% -20.47dhellogame", 12);

@@ -124,7 +124,9 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
     {
         while (format[i] == '%' && format[i + 1] != '%' && format[i + 1] != '\0')
         {
+            res->pro = (int)i;
             i = (startformat(i + 1, format, res));
+            res->pro == (int)i ? res->pro = 1 : 0;
             res->type != '\0' ? do_format(res), free(res), len +=res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
         }
         if (format[i] == '%' && format[i + 1] == '%')/* || (format[i] == '%' && format[i + 1] == '\0'))*/
@@ -145,9 +147,11 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
             {
                 res->zero > 0 ? res->width -= 1,  writezero(res) : 0;
                 res->zero == 0 ? res->width -= 1, writewidth(res) : 0;
+                res->pro > 0 ? write (1, "%", 1), len += 1 : 0;
                 ft_putchar(format[i]);
-                len +=res->len;
+                len += res->len;
             }
+
         }
         else
             ft_putchar(format[i]);
