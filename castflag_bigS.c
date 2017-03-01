@@ -54,7 +54,7 @@ int castflag_bigS(t_arg *res)
     {
         tmp == NULL ?  res->width = res->width - 6 : 0;
         if (res->width < len)
-            writewidth(res);
+            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
         else
         {
             res->width -= len;
