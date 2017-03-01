@@ -91,9 +91,7 @@ CMakeFiles/get.dir/libft/ft_strlen.c.o: ../libft/libft.h
 CMakeFiles/get.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
 CMakeFiles/get.dir/libft/ft_strnew.c.o: ../libft/libft.h
 
-CMakeFiles/get.dir/main.c.o: ../ft_printf.h
-CMakeFiles/get.dir/main.c.o: ../libft/libft.h
-CMakeFiles/get.dir/main.c.o: ../main.c
+CMakeFiles/get.dir/main2.c.o: ../main2.c
 
 CMakeFiles/get.dir/otherutf.c.o: ../ft_printf.h
 CMakeFiles/get.dir/otherutf.c.o: ../libft/libft.h

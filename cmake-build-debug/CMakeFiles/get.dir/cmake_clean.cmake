@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/get.dir/main.c.o"
+  "CMakeFiles/get.dir/main2.c.o"
   "CMakeFiles/get.dir/ft_printf.c.o"
   "CMakeFiles/get.dir/libft/ft_putchar.c.o"
   "CMakeFiles/get.dir/libft/ft_atoi.c.o"

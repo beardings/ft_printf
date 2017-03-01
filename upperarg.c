@@ -12,6 +12,4 @@ void upperarg(t_arg *res)
         res->space = 0;
     if (res->type == 's' && res->flag == 3)
         res->type = 'S';
-    if (res->type == 'c' && res->flag == 3)
-        res->type = 'C';
 }
