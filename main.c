@@ -4,22 +4,13 @@
 
 #include "ft_printf.h"
 #include "locale.h"
-
+#include "limits.h"
+# define CNV "u"
 int main(void)
 {
-    //int i;
-    //unsigned long  i = 4294967296;
-    //long long k = 4999999999;
-    //ft_printf("\n(FT_): %%%-+z 04.12d end  Hello!");
-    //ft_printf("\n(FT_): %04.2s %-15.0s|", str, res);
-     setlocale(LC_ALL, "");
     printf("\n");
-    printf("|len: %i", ft_printf("my: %"));
-    //ft_printf("%S", L"米");
+    printf("|len: %i", ft_printf("my: |%5hh"CNV"|\t|%20l l"CNV"|", SHRT_MIN,LONG_MIN));
     printf("\n");
-    printf("|len: %i", printf("or: %"));
-    //printf("%S", L"米");
-    //ft_printf("%s%s%s%s%s", "this", "is", "a", "multi", "string");
-    //printf("Hallo Nikolas%%% -20.47dhellogame", 12);
+    printf("|len: %i", printf("or: |%5hh"CNV"|\t|%20l l"CNV"|", SHRT_MIN,LONG_MIN));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 }

@@ -65,17 +65,17 @@ int         checkflags(size_t i, const char *format, t_arg *res)
 
     k = 0;
     if (format[i] == 'h' && format[i + 1] == 'h')
-        res->flag < 1 ? res->flag = 1, k += 2 : 0;
+        res->flag <= 1 ? res->flag = 1, k += 2 : 0;
     if (format[i] == 'h' && format[i + 1] != 'h')
-        res->flag < 2 ? res->flag = 2, k++ : 0;
+        res->flag <= 2 ? res->flag = 2, k++ : 0;
     if (format[i] == 'l' && format[i + 1] != 'l')
-        res->flag < 3 ? res->flag = 3, k++ : 0;
+        res->flag <= 3 ? res->flag = 3, k++ : 0;
     if (format[i] == 'l' && format[i + 1] == 'l')
-        res->flag < 4 ? res->flag = 4, k += 2 : 0;
+        res->flag <= 4 ? res->flag = 4, k += 2 : 0;
     if (format[i] == 'j')
-        res->flag < 5 ? res->flag = 5, k++ : 0;
+        res->flag <= 5 ? res->flag = 5, k++ : 0;
     if (format[i] == 'z')
-        res->flag < 6 ? res->flag = 6, k++ : 0;
+        res->flag <= 6 ? res->flag = 6, k++ : 0;
     return (res->flag > 0 && k != 0 ? k : 0);
 }
 
@@ -151,7 +151,6 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
                 ft_putchar(format[i]);
                 len += res->len;
             }
-
         }
         else
             ft_putchar(format[i]);
@@ -193,16 +192,5 @@ int         ft_printf(const char *format, ...)
         len = searcharg(format, arg, res);
         va_end(arg);
     }
-/*    printf("\n");
-    printf("\nres_len: %d", res->len);
-    printf("\nflag: %d", res->flag);
-    printf("\nspace: %d", res->space);
-    printf("\nhesh: %d", res->hesh);
-    printf("\ntype: %c", res->type);
-    printf("\nzero: %d", res->zero);
-    printf("\nplus: %d", res->plus);
-    printf("\nmin: %d", res->minus);
-    printf("\npre: %d", res->press);
-    printf("\nwidth: %d", res->width);*/
     return ((int)len);
 }

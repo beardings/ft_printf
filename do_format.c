@@ -23,9 +23,9 @@ char    *cast_mod(t_arg *res)
     uintmax_t mun;
     char *tmp;
 
-    if (res->flag == 1 && res->type != 'U' && res->type != 'X' && res->type != 'O' && res->type != 'p')
+    if (res->flag == 1 && res->type != 'U'  && res->type != 'O' && res->type != 'p')
         mun = (unsigned char)res->tmp;
-    else if (res->flag == 2 && res->type != 'U' && res->type != 'X' && res->type != 'O' && res->type != 'p')
+    else if (res->flag == 2 && res->type != 'U'  && res->type != 'O' && res->type != 'p')
         mun = (unsigned short)res->tmp;
     else if (res->flag == 3 && res->type != 'p')
         mun = (unsigned long)res->tmp;
@@ -73,10 +73,7 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
         res->type == 'p' ? preox(res): 0;
         res->width -= len;
         writewidth(res);
-        if ((tmp[0] == '0' && tmp[1] == '\0') && (res->type == 'x' || res->type == 'o' || res->type == 'u'))
-            write (1, " ", 1);
-        else
-            ft_putstr(tmp);
+        ft_putstr(tmp);
         res->len += len;
     }
     else if ((res->width) && (res->press)  && !(res->zero) && !(res->minus) && !(res->hesh))
