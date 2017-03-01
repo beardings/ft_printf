@@ -10,4 +10,6 @@ void upperarg(t_arg *res)
         res->zero = 0;
     if (res->plus > 0 && res->space > 0)
         res->space = 0;
+    if (res->type == 's' && res->flag == 3)
+        res->type = 'S';
 }
