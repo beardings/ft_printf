@@ -5,13 +5,12 @@
 #include "ft_printf.h"
 #include "locale.h"
 #include "limits.h"
-# define CNV "u"
+
 int main(void)
 {
-    char c;
     printf("\n");
-    printf("|len: %i", ft_printf("my: %#08x", 42));
+    printf("|len: %i", ft_printf("my: %.d %.0d", 0, 0));
     printf("\n");
-    printf("|len: %i", printf("or: %#08x", 42));
+    printf("|len: %i", printf("or: %.d %.0d", 0, 0));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 }

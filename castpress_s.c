@@ -20,7 +20,8 @@ void castpress_s(t_arg *res, int i, char *tmp)
     {
         if (res->press > i)
         {
-            tmp != NULL && i > 0? res->width -= i : 0;
+            tmp != NULL && i > 0 ? res->width -= i : 0;
+            tmp == NULL && i == 0 ? res->width -= res->press : 0;
             writewidth(res);
             (ft_null(tmp, res, res->press)) == 1 || i == 0 ? 0 : ft_putstrnew(tmp, i, res);
         }

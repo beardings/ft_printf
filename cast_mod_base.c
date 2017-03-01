@@ -20,7 +20,7 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
     else if ((res->width) && (res->press) == -1 && !(res->zero) && !(res->minus) && !(res->hesh))
     {
         res->type == 'p' ? res->width -= len + 2 : 0;
-        res->type != 'p' ?res->width -= len : 0;
+        res->type != 'p' ? res->width -= len : 0;
         writewidth(res);
         res->type == 'p' ? preox(res): 0;
         ft_putstr(tmp);

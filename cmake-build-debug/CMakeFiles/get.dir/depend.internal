@@ -103,8 +103,10 @@ CMakeFiles/get.dir/libft/ft_strlen.c.o
 CMakeFiles/get.dir/libft/ft_strnew.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strnew.c
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
-CMakeFiles/get.dir/main2.c.o
- /nfs/2016/m/mponomar/project/git/ft_printf/main2.c
+CMakeFiles/get.dir/main.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/main.c
 CMakeFiles/get.dir/otherutf.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h

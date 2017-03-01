@@ -66,5 +66,6 @@ void            cast_standart_for_base(t_arg *res);
 void            preox(t_arg *res);
 char            *base(t_arg *res, uintmax_t mun);
 int             cast_mod_base(char *tmp, int len, t_arg *res);
+void            finishd(intmax_t num, t_arg *res);
 
 #endif

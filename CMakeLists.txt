@@ -3,7 +3,7 @@ project(4ft_printf)
 
 set(CMAKE_C_FLAGS)
 
-set(SOURCE_FILES main2.c /
+set(SOURCE_FILES main.c /
         ft_printf.c /
         libft/ft_putchar.c /
         libft/ft_atoi.c /
