@@ -9,9 +9,9 @@
 int main(void)
 {
     printf("\n");
-    printf("|len: %i", ft_printf("{% 03d}", 0));
+    printf("|len: %i", ft_printf("%5.d %5.0d", 0, 0));
     printf("\n");
-    printf("|len: %i", printf("{% 03d}", 0));
+    printf("|len: %i", printf("%5.d %5.0d", 0, 0));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 }
 /*

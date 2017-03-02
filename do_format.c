@@ -141,41 +141,58 @@ void minuspresent(t_arg *res, intmax_t len, intmax_t num)
 
 int  numnull(t_arg *res)
 {
-    res->space > 0 && res->width > 0 ? write (1 , " ", 1), res->width -= 1, res->len += 1 : 0;
-    if (res->width > 0 && res->press < 1 )
+    if (res->minus > 0)
     {
+        if (res->space > 0)
+        {
+            write (1, " ", 1);
+            res->width -= 1;
+            res->len++;
+        }
         if (res->plus > 0)
         {
             write (1, "+", 1);
+            res->width -= 1;
             res->len++;
-            res->width -= 2;
-            res->plus -= 1;
         }
-        res->zero > 0 && res->press != 0 ? writezero(res) : writewidth(res);
-        res->width -= res->width;
-    }
-    if (res->width > 0 && res->press > 1)
-    {
-        res->width -= res->press;
-        writewidth(res);
-    }
-    if (res->plus > 0)
-    {
-        write (1, "+", 1);
-        res->len++;
-        res->width -= 1;
-    }
-    if (res->press > 1 && res->press--)
+        if (res->press > 1)
+            res->width -= res->press;
+        else
+            res->width -= 1;
+        res->press -= 1;
         writepress(res);
-    res->plus > 0 && res->width > 1 && res->zero > 0 ? res->width -=  1 : 0;
-    res->plus > 0 && res->width < 1 && res->zero > 0 ? writezero(res) : 0;
-    res->plus == 0 ? res->width -= res->press: 0;
-    if ((res->press == 0 || res->press == -1) && res->width == 0 && res->plus == 0)
-        return (0);
-    else
-    {
         ft_putnbr(0);
         res->len += 1;
+        res->press > 1 && res->zero > 0 ? writezero(res) : writewidth(res);
+    }
+    else
+    {
+        res->plus > 0 ? write (1, "+", 1), res->width -= 1 : 0;
+        if (res->press > 1)
+        {
+            res->space > 0 ? res->width -= res->press + 1 : 0;
+            res->space == 0 ? res->width -= res->press : 0;
+        }
+        else
+        {
+            res->space == 0 && res->press != 0 ? res->width -= 1 : 0;
+            res->space > 0 ? res->width -= 1 + 1 : 0;
+        }
+        res->space > 0 ? write (1, " ", 1), res->len++ : 0;
+        res->press > 0 ? res->press -= 1 : 0;
+        if (res->width > 0 && (res->zero == 0 || (res->press == 0 && res->zero == 1)))
+        {
+            writewidth(res);
+            res->width -= res->width;
+        }
+        res->press == -1 && res->zero > 0 ? writezero(res) : 0;
+        res->press == 0 && res->zero == 0 ? writewidth(res) : 0;
+        res->press == -1 && res->zero == 0 ? writewidth(res) : 0;
+        res->press > 0 && res->width > 0 ? writewidth(res) : 0;
+        res->plus == 0 && res->press != 0 ? res->len += 1 : 0;
+        res->press > 0 && res->zero > 0 ? writepress(res) : 0;
+        res->plus != 0 ? res->len += 1 + 1 : 0;
+        res->press != 0 ? ft_putnbr(0) : 0;
     }
     return (0);
 }
