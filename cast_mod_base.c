@@ -294,7 +294,9 @@ int cast_mod_base(char *tmp, int len, t_arg *res)
         {
             res->type == 'p' ? preox(res) : 0;
             printhesh(res);
-            res->press -= len;
+            res->type == 'o' || res->type == 'O' ? res->press -= len + 1 : 0;
+            res->type == 'x' || res->type == 'X' ? res->press -= len : 0;
+            res->type == 'u' || res->type == 'U' ? res->press -= len : 0;
             writepress(res);
             ft_putstr(tmp);
             res->len += len;

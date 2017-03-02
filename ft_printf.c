@@ -80,7 +80,9 @@ int         checkflags(size_t i, const char *format, t_arg *res)
         res->flag <= 2 ? res->flag = 2 : 0;
     if (res->h > 0 && (res->h % 2) == 0)
         res->flag <= 2 ? res->flag = 1 : 0;
-    return (res->flag > 0 && k != 0 ? k : 0);
+    if (res->flag > 0 && k == 0)
+        k++;
+    return (res->flag > 0 || k != 0 ? k : 0);
 }
 
 int         checkhzmp(size_t i, const char *format, t_arg *res)
@@ -106,7 +108,7 @@ size_t      startformat(size_t i, const char *format, t_arg *res)
     while (format[i] != '%' && format[i] != '\0')
     {
         k = 0;
-        if (!(checktype(i, format, res)) && !(k = (size_t)checkflags(i, format, res)) && !(k = (size_t)checkhzmp(i, format, res)))
+        if (!(checktype(i, format, res)) && !(k = (size_t)checkhzmp(i, format, res)) && !(k = (size_t)checkflags(i, format, res)))
             return (i);
         k != 0 ? i += k : i++;
         if (res->type != '\0')
@@ -133,7 +135,7 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
             res->pro == (int)i ? res->pro = 1 : 0;
             res->type != '\0' ? do_format(res), free(res), len +=res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
         }
-        if (format[i] == '%' && format[i + 1] == '%')/* || (format[i] == '%' && format[i + 1] == '\0'))*/
+        if (format[i] == '%' && format[i + 1] == '%')
             i++;
         if (format[i] == '\0')
             break ;
@@ -146,16 +148,23 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
                 res->width -= 1;
                 writewidth(res);
                 len +=res->len;
+                res->width -= res->width;
+
             }
             else
             {
                 res->zero > 0 ? res->width -= 1,  writezero(res) : 0;
                 res->zero == 0 ? res->width -= 1, writewidth(res) : 0;
-                res->pro > 0 ? write (1, "%", 1), len += 1 : 0;
+                format[i - 1] == '%' && res->pro > 0 ? write (1, "%", 1), len += 1 : 0;
                 ft_putchar(format[i]);
                 len += res->len;
+                res->width -= res->width;
             }
         }
+        else if (format[i] == '%' && format[i + 1] == '\0' && !(format[i - 1]))
+            return (len);
+        else if (format[i] == '%' && len > 0 && format[i + 1] == '\0' && res->pro == 0 && format[i - 1] != '%')
+            return (len);
         else
             ft_putchar(format[i]);
         len++;

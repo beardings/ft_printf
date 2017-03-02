@@ -9,17 +9,17 @@ void cast_forlenth(t_arg *res)
     intmax_t num;
 
     upperarg(res);
-    if (res->flag == 1)
+    if (res->flag == 1 && res->type != 'D')
         num = (char)res->tmp;
-    else if (res->flag == 2)
+    else if (res->flag == 2 && res->type != 'D')
         num = (short)res->tmp;
-    else if (res->flag == 3)
+    else if (res->flag == 3 && res->type != 'D')
         num = (long)res->tmp;
-    else if (res->flag == 4)
+    else if (res->flag == 4 && res->type != 'D')
         num = (long long)res->tmp;
-    else if (res->flag == 5)
+    else if (res->flag == 5 && res->type != 'D')
         num = (intmax_t)res->tmp;
-    else if (res->flag == 6)
+    else if (res->flag == 6 && res->type != 'D')
         num = (size_t)res->tmp;
     else if (res->type == 'd' || res->type == 'i')
         num = (int)res->tmp;
@@ -46,13 +46,10 @@ void	ft_putnbr_new(intmax_t n, t_arg *res)
     intmax_t nb;
 
     if (n < 0)
-    {
         nb = -n;
-        res->len += 1;
-    }
     else
         nb = n;
-    if (nb < 10)
+    if (nb < 10 && nb > -1)
         ft_putchar('0' + nb);
     else
     {
@@ -88,13 +85,13 @@ void minusmissing(t_arg *res, intmax_t len, intmax_t num)
     }
     if (res->minus == 0 && num < 0)
     {
-        res->zero > 0 && res->press == -1 ? write (1, "-", 1) : 0;
+        res->zero > 0 && res->press == -1 ? write (1, "-", 1), res->len += 1 : 0;
         if (res->press > len)
             res->width -= 1 + res->press;
         else
             res->width -= len + 1;
         res->press == -1 && res->zero > 0 ? writezero(res) : writewidth(res);
-        res->zero == 0 || res->press > 0 ? write (1, "-", 1) : 0;
+        res->zero == 0 || res->press > 0 ? write (1, "-", 1), res->len += 1 : 0;
         res->press -= len;
         writepress(res);
         ft_putnbr_new(num, res);
@@ -129,6 +126,7 @@ void minuspresent(t_arg *res, intmax_t len, intmax_t num)
     if (res->minus > 0 && num < 0)
     {
         write (1, "-", 1);
+        res->len += 1;
         if (res->press > len)
             res->width -= 1 + res->press;
         else
@@ -146,6 +144,13 @@ int  numnull(t_arg *res)
     res->space > 0 && res->width > 0 ? write (1 , " ", 1), res->width -= 1, res->len += 1 : 0;
     if (res->width > 0 && res->press < 1 )
     {
+        if (res->plus > 0)
+        {
+            write (1, "+", 1);
+            res->len++;
+            res->width -= 2;
+            res->plus -= 1;
+        }
         res->zero > 0 && res->press != 0 ? writezero(res) : writewidth(res);
         res->width -= res->width;
     }

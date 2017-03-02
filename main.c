@@ -9,8 +9,15 @@
 int main(void)
 {
     printf("\n");
-    printf("|len: %i", ft_printf("my: %hD, %hD", 0, USHRT_MAX));
+    printf("|len: %i", ft_printf("{% 03d}", 0));
     printf("\n");
-    printf("|len: %i", printf("or: %hD, %hD", 0, USHRT_MAX));
+    printf("|len: %i", printf("{% 03d}", 0));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 }
+/*
+
+
+    assert_printf("{% 03d}", 0);
+
+    assert_printf("{%0-3d}", 0);
+*/
