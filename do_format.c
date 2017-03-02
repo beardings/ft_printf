@@ -53,9 +53,7 @@ void	ft_putnbr_new(intmax_t n, t_arg *res)
     else
         nb = n;
     if (nb < 10)
-    {
         ft_putchar('0' + nb);
-    }
     else
     {
         ft_putnbr_new(nb / 10, res);
@@ -79,7 +77,7 @@ void minusmissing(t_arg *res, intmax_t len, intmax_t num)
             res->space > 0 ? res->width -= len + 1 : 0;
         }
         res->space > 0 ? write (1, " ", 1), res->len++ : 0;
-        //res->plus > 0 ? res->width -= 1 : 0;
+        (res->zero == 0 || res->press > 0) && res->plus > 0 ? res->width -= 1 : 0;
         res->press == -1 && res->zero > 0 ? writezero(res) : writewidth(res);
         (res->zero == 0 || res->press > 0) && res->plus > 0 ? write (1, "+", 1) : 0;
         res->press -= len;
@@ -143,10 +141,14 @@ void minuspresent(t_arg *res, intmax_t len, intmax_t num)
     }
 }
 
-void  numnull(t_arg *res)
+int  numnull(t_arg *res)
 {
-    if (res->width > 0 && res->press == -1)
-        writewidth(res);
+    res->space > 0 && res->width > 0 ? write (1 , " ", 1), res->width -= 1, res->len += 1 : 0;
+    if (res->width > 0 && res->press < 1 )
+    {
+        res->zero > 0 && res->press != 0 ? writezero(res) : writewidth(res);
+        res->width -= res->width;
+    }
     if (res->width > 0 && res->press > 1)
     {
         res->width -= res->press;
@@ -156,12 +158,21 @@ void  numnull(t_arg *res)
     {
         write (1, "+", 1);
         res->len++;
+        res->width -= 1;
     }
     if (res->press > 1 && res->press--)
         writepress(res);
-    res->plus > 0 ? res->width -= res->press + 1 : 0;
+    res->plus > 0 && res->width > 1 && res->zero > 0 ? res->width -=  1 : 0;
+    res->plus > 0 && res->width < 1 && res->zero > 0 ? writezero(res) : 0;
     res->plus == 0 ? res->width -= res->press: 0;
-    res->press == 0 && res->width == 0 && res->plus == 0 ? 0 : ft_putnbr(0), res->len += 1;
+    if ((res->press == 0 || res->press == -1) && res->width == 0 && res->plus == 0)
+        return (0);
+    else
+    {
+        ft_putnbr(0);
+        res->len += 1;
+    }
+    return (0);
 }
 
 void  finishd(intmax_t num, t_arg *res)
