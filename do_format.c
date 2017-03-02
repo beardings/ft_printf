@@ -79,7 +79,7 @@ void minusmissing(t_arg *res, intmax_t len, intmax_t num)
             res->space > 0 ? res->width -= len + 1 : 0;
         }
         res->space > 0 ? write (1, " ", 1), res->len++ : 0;
-        res->plus > 0 ? res->width -= 1 : 0;
+        //res->plus > 0 ? res->width -= 1 : 0;
         res->press == -1 && res->zero > 0 ? writezero(res) : writewidth(res);
         (res->zero == 0 || res->press > 0) && res->plus > 0 ? write (1, "+", 1) : 0;
         res->press -= len;
