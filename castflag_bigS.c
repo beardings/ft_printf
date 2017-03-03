@@ -5,7 +5,7 @@
 #include "ft_printf.h"
 
 
-int lenwchar(wchar_t *tmp)
+static int lenwchar(wchar_t *tmp)
 {
     int i;
 
@@ -15,26 +15,46 @@ int lenwchar(wchar_t *tmp)
     return (i);
 }
 
-int utflen(wchar_t *tmp)
+static void cast_Sn(wchar_t *tmp, int i, int len, t_arg *res)
 {
-    int i;
-    int k;
-
-    k = 0;
-    i = 0;
-    while (tmp[k] != '\0')
+    tmp == NULL ?  res->width = res->width - 6 : 0;
+    if (res->width < len)
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+    else
     {
-        if (tmp[k] <= 0x7F)
-            i++;
-        else if (tmp[k] <= 0x7FF)
-            i += 2;
-        else if (tmp[k] <= 0xFFFF)
-            i += 3;
-        else if (tmp[k] <= 0x10FFFF)
-            i += 4;
-        k++;
+        res->width -= len;
+        writewidth(res);
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        res->len = res->width + len;
     }
-    return (i);
+}
+
+static void cast_Snn(wchar_t *tmp, int i, int len, t_arg *res)
+{
+    tmp == NULL ?  res->width = res->width - 6 : 0;
+    if (res->width < len)
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+    else
+    {
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        res->width -= len;
+        writewidth(res);
+        res->len = res->width + len;
+    }
+}
+
+static void cast_Snnn(wchar_t *tmp, int i, int len, t_arg *res)
+{
+    tmp == NULL ?  res->width = res->width - 6 : 0;
+    if (res->width < len)
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+    else
+    {
+        res->width -= len;
+        writezero(res);
+        (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
+        res->len = res->width + len;
+    }
 }
 
 int castflag_bigS(t_arg *res)
@@ -51,44 +71,11 @@ int castflag_bigS(t_arg *res)
     if (!(res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
         (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
     else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == -1)
-    {
-        tmp == NULL ?  res->width = res->width - 6 : 0;
-        if (res->width < len)
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-        else
-        {
-            res->width -= len;
-            writewidth(res);
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-            res->len = res->width + len;
-        }
-    }
+        cast_Sn(tmp, i, len, res);
     else if ((res->width) && (res->minus) && !(res->zero) && (res->press) == -1)
-    {
-        tmp == NULL ?  res->width = res->width - 6 : 0;
-        if (res->width < len)
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-        else
-        {
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-            res->width -= len;
-            writewidth(res);
-            res->len = res->width + len;
-        }
-    }
+        cast_Snn(tmp, i, len, res);
     else if ((res->width) && !(res->minus) && (res->zero) && (res->press) == -1)
-    {
-        tmp == NULL ?  res->width = res->width - 6 : 0;
-        if (res->width < len)
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-        else
-        {
-            res->width -= len;
-            writezero(res);
-            (ft_null((char *)tmp, res, 6)) == 1 ? 0 : dowchar_t(tmp, res, i);
-            res->len = res->width + len;
-        }
-    }
+        cast_Snnn(tmp, i, len, res);
     else if (res->press > -1)
         castpress_bigS(res, i, tmp, len);
     else

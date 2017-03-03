@@ -67,5 +67,13 @@ void            preox(t_arg *res);
 char            *base(t_arg *res, uintmax_t mun);
 int             cast_mod_base(char *tmp, int len, t_arg *res);
 void            finishd(intmax_t num, t_arg *res);
+void	        ft_putnbr_new(intmax_t n, t_arg *res);
+intmax_t        lenintmax(intmax_t num);
+void            cast_forlenth(t_arg *res);
+void            minusmissing(t_arg *res, intmax_t len, intmax_t num);
+void            minuspresent(t_arg *res, intmax_t len, intmax_t num);
+int             numnull(t_arg *res);
+void            cast_nnnnn(int i, t_arg *res, char *tmp);
+int             utflen(wchar_t *tmp);
 
 #endif

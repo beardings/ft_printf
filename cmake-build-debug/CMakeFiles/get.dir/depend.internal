@@ -13,6 +13,10 @@ CMakeFiles/get.dir/cast_mod_base.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_base.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+CMakeFiles/get.dir/cast_nnnnn.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/cast_standart_for_base.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -39,6 +43,10 @@ CMakeFiles/get.dir/castpress_s.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/checkcan.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+CMakeFiles/get.dir/createres.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/createres.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/do_format.c.o
@@ -107,6 +115,18 @@ CMakeFiles/get.dir/main.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
  /nfs/2016/m/mponomar/project/git/ft_printf/main.c
+CMakeFiles/get.dir/minusmissing.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c
+CMakeFiles/get.dir/minuspresent.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c
+CMakeFiles/get.dir/numnull.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/numnull.c
 CMakeFiles/get.dir/otherutf.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
@@ -119,6 +139,14 @@ CMakeFiles/get.dir/printhesh.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
  /nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c
+CMakeFiles/get.dir/searcharg.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c
+CMakeFiles/get.dir/startformat.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/startformat.c
 CMakeFiles/get.dir/upperarg.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h

@@ -94,6 +94,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_base.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c">
 			<Option target="get"/>
 		</Unit>
@@ -113,6 +116,9 @@
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/createres.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/do_format.c">
@@ -178,6 +184,15 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/numnull.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c">
 			<Option target="get"/>
 		</Unit>
@@ -187,7 +202,16 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/startformat.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/utflen.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/writepress.c">

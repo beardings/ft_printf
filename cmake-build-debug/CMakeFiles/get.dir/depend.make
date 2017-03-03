@@ -13,6 +13,10 @@ CMakeFiles/get.dir/cast_mod_base.c.o: ../cast_mod_base.c
 CMakeFiles/get.dir/cast_mod_base.c.o: ../ft_printf.h
 CMakeFiles/get.dir/cast_mod_base.c.o: ../libft/libft.h
 
+CMakeFiles/get.dir/cast_nnnnn.c.o: ../cast_nnnnn.c
+CMakeFiles/get.dir/cast_nnnnn.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_nnnnn.c.o: ../libft/libft.h
+
 CMakeFiles/get.dir/cast_standart_for_base.c.o: ../cast_standart_for_base.c
 CMakeFiles/get.dir/cast_standart_for_base.c.o: ../ft_printf.h
 CMakeFiles/get.dir/cast_standart_for_base.c.o: ../libft/libft.h
@@ -40,6 +44,10 @@ CMakeFiles/get.dir/castpress_s.c.o: ../libft/libft.h
 CMakeFiles/get.dir/checkcan.c.o: ../checkcan.c
 CMakeFiles/get.dir/checkcan.c.o: ../ft_printf.h
 CMakeFiles/get.dir/checkcan.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/createres.c.o: ../createres.c
+CMakeFiles/get.dir/createres.c.o: ../ft_printf.h
+CMakeFiles/get.dir/createres.c.o: ../libft/libft.h
 
 CMakeFiles/get.dir/do_format.c.o: ../do_format.c
 CMakeFiles/get.dir/do_format.c.o: ../ft_printf.h
@@ -107,6 +115,18 @@ CMakeFiles/get.dir/main.c.o: ../ft_printf.h
 CMakeFiles/get.dir/main.c.o: ../libft/libft.h
 CMakeFiles/get.dir/main.c.o: ../main.c
 
+CMakeFiles/get.dir/minusmissing.c.o: ../ft_printf.h
+CMakeFiles/get.dir/minusmissing.c.o: ../libft/libft.h
+CMakeFiles/get.dir/minusmissing.c.o: ../minusmissing.c
+
+CMakeFiles/get.dir/minuspresent.c.o: ../ft_printf.h
+CMakeFiles/get.dir/minuspresent.c.o: ../libft/libft.h
+CMakeFiles/get.dir/minuspresent.c.o: ../minuspresent.c
+
+CMakeFiles/get.dir/numnull.c.o: ../ft_printf.h
+CMakeFiles/get.dir/numnull.c.o: ../libft/libft.h
+CMakeFiles/get.dir/numnull.c.o: ../numnull.c
+
 CMakeFiles/get.dir/otherutf.c.o: ../ft_printf.h
 CMakeFiles/get.dir/otherutf.c.o: ../libft/libft.h
 CMakeFiles/get.dir/otherutf.c.o: ../otherutf.c
@@ -118,6 +138,14 @@ CMakeFiles/get.dir/preox.c.o: ../preox.c
 CMakeFiles/get.dir/printhesh.c.o: ../ft_printf.h
 CMakeFiles/get.dir/printhesh.c.o: ../libft/libft.h
 CMakeFiles/get.dir/printhesh.c.o: ../printhesh.c
+
+CMakeFiles/get.dir/searcharg.c.o: ../ft_printf.h
+CMakeFiles/get.dir/searcharg.c.o: ../libft/libft.h
+CMakeFiles/get.dir/searcharg.c.o: ../searcharg.c
+
+CMakeFiles/get.dir/startformat.c.o: ../ft_printf.h
+CMakeFiles/get.dir/startformat.c.o: ../libft/libft.h
+CMakeFiles/get.dir/startformat.c.o: ../startformat.c
 
 CMakeFiles/get.dir/upperarg.c.o: ../ft_printf.h
 CMakeFiles/get.dir/upperarg.c.o: ../libft/libft.h

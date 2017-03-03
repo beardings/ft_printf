@@ -18,6 +18,10 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -43,6 +47,10 @@ ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/createres.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -144,6 +152,18 @@ locale.h
 limits.h
 /nfs/2016/m/mponomar/project/git/ft_printf/limits.h
 
+/nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/numnull.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/otherutf.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
@@ -153,6 +173,14 @@ ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/printhesh.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/startformat.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 

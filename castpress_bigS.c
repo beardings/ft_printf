@@ -93,7 +93,7 @@ void castpress_bigS(t_arg *res, int i, wchar_t *tmp, int len)
             writewidth(res);
         }
     }
-        else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == 0)
+    else if ((res->width) && !(res->minus) && !(res->zero) && (res->press) == 0)
     {
         if (res->width < len)
             writewidth(res);

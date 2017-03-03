@@ -8,9 +8,9 @@
 int main(void)
 {
     printf("\n");
-    printf("|len: %i", ft_printf("|%-6%|   |%6%|   |%6.2%|   |%-06%|   |%-06.3%|"));
+    printf("|len: %i", ft_printf("{%-15Z}", 123));
     printf("\n");
-    printf("|len: %i", printf("|%-6%|   |%6%|   |%6.2%|   |%-06%|   |%-06.3%|"));
+    printf("|len: %i", printf("{%-15Z}", 123));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 
 }

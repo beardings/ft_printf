@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/03/01 19:10:09 by mponomar         ###   ########.fr        #
+#    Updated: 2017/03/03 22:57:07 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -48,7 +48,15 @@ SOURCE = ft_printf.c \
 		cast_standart_for_base.c \
 		preox.c \
 		cast_mod_base.c \
-		base.c
+		base.c \
+		minusmissing.c \
+		minuspresent.c \
+		numnull.c \
+		cast_nnnnn.c \
+		createres.c \
+		startformat.c \
+		searcharg.c \
+		utflen.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

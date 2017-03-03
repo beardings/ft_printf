@@ -204,6 +204,33 @@ cast_mod_base.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_base.c.s
 .PHONY : cast_mod_base.c.s
 
+cast_nnnnn.o: cast_nnnnn.c.o
+
+.PHONY : cast_nnnnn.o
+
+# target to build an object file
+cast_nnnnn.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_nnnnn.c.o
+.PHONY : cast_nnnnn.c.o
+
+cast_nnnnn.i: cast_nnnnn.c.i
+
+.PHONY : cast_nnnnn.i
+
+# target to preprocess a source file
+cast_nnnnn.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_nnnnn.c.i
+.PHONY : cast_nnnnn.c.i
+
+cast_nnnnn.s: cast_nnnnn.c.s
+
+.PHONY : cast_nnnnn.s
+
+# target to generate assembly for a file
+cast_nnnnn.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_nnnnn.c.s
+.PHONY : cast_nnnnn.c.s
+
 cast_standart_for_base.o: cast_standart_for_base.c.o
 
 .PHONY : cast_standart_for_base.o
@@ -392,6 +419,33 @@ checkcan.s: checkcan.c.s
 checkcan.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checkcan.c.s
 .PHONY : checkcan.c.s
+
+createres.o: createres.c.o
+
+.PHONY : createres.o
+
+# target to build an object file
+createres.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/createres.c.o
+.PHONY : createres.c.o
+
+createres.i: createres.c.i
+
+.PHONY : createres.i
+
+# target to preprocess a source file
+createres.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/createres.c.i
+.PHONY : createres.c.i
+
+createres.s: createres.c.s
+
+.PHONY : createres.s
+
+# target to generate assembly for a file
+createres.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/createres.c.s
+.PHONY : createres.c.s
 
 do_format.o: do_format.c.o
 
@@ -933,6 +987,87 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
 .PHONY : main.c.s
 
+minusmissing.o: minusmissing.c.o
+
+.PHONY : minusmissing.o
+
+# target to build an object file
+minusmissing.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minusmissing.c.o
+.PHONY : minusmissing.c.o
+
+minusmissing.i: minusmissing.c.i
+
+.PHONY : minusmissing.i
+
+# target to preprocess a source file
+minusmissing.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minusmissing.c.i
+.PHONY : minusmissing.c.i
+
+minusmissing.s: minusmissing.c.s
+
+.PHONY : minusmissing.s
+
+# target to generate assembly for a file
+minusmissing.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minusmissing.c.s
+.PHONY : minusmissing.c.s
+
+minuspresent.o: minuspresent.c.o
+
+.PHONY : minuspresent.o
+
+# target to build an object file
+minuspresent.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minuspresent.c.o
+.PHONY : minuspresent.c.o
+
+minuspresent.i: minuspresent.c.i
+
+.PHONY : minuspresent.i
+
+# target to preprocess a source file
+minuspresent.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minuspresent.c.i
+.PHONY : minuspresent.c.i
+
+minuspresent.s: minuspresent.c.s
+
+.PHONY : minuspresent.s
+
+# target to generate assembly for a file
+minuspresent.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minuspresent.c.s
+.PHONY : minuspresent.c.s
+
+numnull.o: numnull.c.o
+
+.PHONY : numnull.o
+
+# target to build an object file
+numnull.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/numnull.c.o
+.PHONY : numnull.c.o
+
+numnull.i: numnull.c.i
+
+.PHONY : numnull.i
+
+# target to preprocess a source file
+numnull.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/numnull.c.i
+.PHONY : numnull.c.i
+
+numnull.s: numnull.c.s
+
+.PHONY : numnull.s
+
+# target to generate assembly for a file
+numnull.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/numnull.c.s
+.PHONY : numnull.c.s
+
 otherutf.o: otherutf.c.o
 
 .PHONY : otherutf.o
@@ -1014,6 +1149,60 @@ printhesh.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/printhesh.c.s
 .PHONY : printhesh.c.s
 
+searcharg.o: searcharg.c.o
+
+.PHONY : searcharg.o
+
+# target to build an object file
+searcharg.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/searcharg.c.o
+.PHONY : searcharg.c.o
+
+searcharg.i: searcharg.c.i
+
+.PHONY : searcharg.i
+
+# target to preprocess a source file
+searcharg.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/searcharg.c.i
+.PHONY : searcharg.c.i
+
+searcharg.s: searcharg.c.s
+
+.PHONY : searcharg.s
+
+# target to generate assembly for a file
+searcharg.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/searcharg.c.s
+.PHONY : searcharg.c.s
+
+startformat.o: startformat.c.o
+
+.PHONY : startformat.o
+
+# target to build an object file
+startformat.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/startformat.c.o
+.PHONY : startformat.c.o
+
+startformat.i: startformat.c.i
+
+.PHONY : startformat.i
+
+# target to preprocess a source file
+startformat.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/startformat.c.i
+.PHONY : startformat.c.i
+
+startformat.s: startformat.c.s
+
+.PHONY : startformat.s
+
+# target to generate assembly for a file
+startformat.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/startformat.c.s
+.PHONY : startformat.c.s
+
 upperarg.o: upperarg.c.o
 
 .PHONY : upperarg.o
@@ -1040,6 +1229,33 @@ upperarg.s: upperarg.c.s
 upperarg.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/upperarg.c.s
 .PHONY : upperarg.c.s
+
+utflen.o: utflen.c.o
+
+.PHONY : utflen.o
+
+# target to build an object file
+utflen.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/utflen.c.o
+.PHONY : utflen.c.o
+
+utflen.i: utflen.c.i
+
+.PHONY : utflen.i
+
+# target to preprocess a source file
+utflen.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/utflen.c.i
+.PHONY : utflen.c.i
+
+utflen.s: utflen.c.s
+
+.PHONY : utflen.s
+
+# target to generate assembly for a file
+utflen.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/utflen.c.s
+.PHONY : utflen.c.s
 
 writepress.o: writepress.c.o
 
@@ -1167,6 +1383,9 @@ help:
 	@echo "... cast_mod_base.o"
 	@echo "... cast_mod_base.i"
 	@echo "... cast_mod_base.s"
+	@echo "... cast_nnnnn.o"
+	@echo "... cast_nnnnn.i"
+	@echo "... cast_nnnnn.s"
 	@echo "... cast_standart_for_base.o"
 	@echo "... cast_standart_for_base.i"
 	@echo "... cast_standart_for_base.s"
@@ -1188,6 +1407,9 @@ help:
 	@echo "... checkcan.o"
 	@echo "... checkcan.i"
 	@echo "... checkcan.s"
+	@echo "... createres.o"
+	@echo "... createres.i"
+	@echo "... createres.s"
 	@echo "... do_format.o"
 	@echo "... do_format.i"
 	@echo "... do_format.s"
@@ -1248,6 +1470,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... minusmissing.o"
+	@echo "... minusmissing.i"
+	@echo "... minusmissing.s"
+	@echo "... minuspresent.o"
+	@echo "... minuspresent.i"
+	@echo "... minuspresent.s"
+	@echo "... numnull.o"
+	@echo "... numnull.i"
+	@echo "... numnull.s"
 	@echo "... otherutf.o"
 	@echo "... otherutf.i"
 	@echo "... otherutf.s"
@@ -1257,9 +1488,18 @@ help:
 	@echo "... printhesh.o"
 	@echo "... printhesh.i"
 	@echo "... printhesh.s"
+	@echo "... searcharg.o"
+	@echo "... searcharg.i"
+	@echo "... searcharg.s"
+	@echo "... startformat.o"
+	@echo "... startformat.i"
+	@echo "... startformat.s"
 	@echo "... upperarg.o"
 	@echo "... upperarg.i"
 	@echo "... upperarg.s"
+	@echo "... utflen.o"
+	@echo "... utflen.i"
+	@echo "... utflen.s"
 	@echo "... writepress.o"
 	@echo "... writepress.i"
 	@echo "... writepress.s"

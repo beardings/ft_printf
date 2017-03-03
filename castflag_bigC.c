@@ -20,6 +20,12 @@ static int utflen(wchar_t c)
     return (i);
 }
 
+static void cast_Cn(wchar_t c, int i, t_arg *res)
+{
+    res->width -= i;
+    writewidth(res);
+    writewchar_t(c, res);
+}
 
 void    castflag_bigC(t_arg *res)
 {
@@ -31,11 +37,7 @@ void    castflag_bigC(t_arg *res)
     if (!(res->width) && !(res->minus) && !(res->zero))
         writewchar_t(c, res);
     else if ((res->width) && !(res->minus) && !(res->zero))
-    {
-        res->width -= i;
-        writewidth(res);
-        writewchar_t(c, res);
-    }
+        cast_Cn(c, i, res);
     else if ((res->width) && (res->minus) && !(res->zero))
     {
         writewchar_t(c, res);

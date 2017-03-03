@@ -41,5 +41,13 @@ set(SOURCE_FILES main.c /
         cast_standart_for_base.c /
         preox.c /
         cast_mod_base.c /
-        base.c)
+        base.c /
+        minusmissing.c /
+        minuspresent.c /
+        numnull.c /
+        cast_nnnnn.c /
+        createres.c /
+        startformat.c /
+        searcharg.c /
+        utflen.c)
 add_executable(get ${SOURCE_FILES})

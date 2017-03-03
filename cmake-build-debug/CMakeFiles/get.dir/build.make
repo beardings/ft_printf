@@ -969,6 +969,198 @@ CMakeFiles/get.dir/base.c.o.provides: CMakeFiles/get.dir/base.c.o.requires
 CMakeFiles/get.dir/base.c.o.provides.build: CMakeFiles/get.dir/base.c.o
 
 
+CMakeFiles/get.dir/minusmissing.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/minusmissing.c.o: ../minusmissing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/get.dir/minusmissing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/minusmissing.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c
+
+CMakeFiles/get.dir/minusmissing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/minusmissing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c > CMakeFiles/get.dir/minusmissing.c.i
+
+CMakeFiles/get.dir/minusmissing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/minusmissing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c -o CMakeFiles/get.dir/minusmissing.c.s
+
+CMakeFiles/get.dir/minusmissing.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/minusmissing.c.o.requires
+
+CMakeFiles/get.dir/minusmissing.c.o.provides: CMakeFiles/get.dir/minusmissing.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minusmissing.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/minusmissing.c.o.provides
+
+CMakeFiles/get.dir/minusmissing.c.o.provides.build: CMakeFiles/get.dir/minusmissing.c.o
+
+
+CMakeFiles/get.dir/minuspresent.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/minuspresent.c.o: ../minuspresent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/get.dir/minuspresent.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/minuspresent.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c
+
+CMakeFiles/get.dir/minuspresent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/minuspresent.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c > CMakeFiles/get.dir/minuspresent.c.i
+
+CMakeFiles/get.dir/minuspresent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/minuspresent.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/minuspresent.c -o CMakeFiles/get.dir/minuspresent.c.s
+
+CMakeFiles/get.dir/minuspresent.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/minuspresent.c.o.requires
+
+CMakeFiles/get.dir/minuspresent.c.o.provides: CMakeFiles/get.dir/minuspresent.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/minuspresent.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/minuspresent.c.o.provides
+
+CMakeFiles/get.dir/minuspresent.c.o.provides.build: CMakeFiles/get.dir/minuspresent.c.o
+
+
+CMakeFiles/get.dir/numnull.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/numnull.c.o: ../numnull.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/get.dir/numnull.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/numnull.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/numnull.c
+
+CMakeFiles/get.dir/numnull.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/numnull.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/numnull.c > CMakeFiles/get.dir/numnull.c.i
+
+CMakeFiles/get.dir/numnull.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/numnull.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/numnull.c -o CMakeFiles/get.dir/numnull.c.s
+
+CMakeFiles/get.dir/numnull.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/numnull.c.o.requires
+
+CMakeFiles/get.dir/numnull.c.o.provides: CMakeFiles/get.dir/numnull.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/numnull.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/numnull.c.o.provides
+
+CMakeFiles/get.dir/numnull.c.o.provides.build: CMakeFiles/get.dir/numnull.c.o
+
+
+CMakeFiles/get.dir/cast_nnnnn.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/cast_nnnnn.c.o: ../cast_nnnnn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/get.dir/cast_nnnnn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/cast_nnnnn.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c
+
+CMakeFiles/get.dir/cast_nnnnn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/cast_nnnnn.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c > CMakeFiles/get.dir/cast_nnnnn.c.i
+
+CMakeFiles/get.dir/cast_nnnnn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/cast_nnnnn.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c -o CMakeFiles/get.dir/cast_nnnnn.c.s
+
+CMakeFiles/get.dir/cast_nnnnn.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/cast_nnnnn.c.o.requires
+
+CMakeFiles/get.dir/cast_nnnnn.c.o.provides: CMakeFiles/get.dir/cast_nnnnn.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_nnnnn.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/cast_nnnnn.c.o.provides
+
+CMakeFiles/get.dir/cast_nnnnn.c.o.provides.build: CMakeFiles/get.dir/cast_nnnnn.c.o
+
+
+CMakeFiles/get.dir/createres.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/createres.c.o: ../createres.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/get.dir/createres.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/createres.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/createres.c
+
+CMakeFiles/get.dir/createres.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/createres.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/createres.c > CMakeFiles/get.dir/createres.c.i
+
+CMakeFiles/get.dir/createres.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/createres.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/createres.c -o CMakeFiles/get.dir/createres.c.s
+
+CMakeFiles/get.dir/createres.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/createres.c.o.requires
+
+CMakeFiles/get.dir/createres.c.o.provides: CMakeFiles/get.dir/createres.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/createres.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/createres.c.o.provides
+
+CMakeFiles/get.dir/createres.c.o.provides.build: CMakeFiles/get.dir/createres.c.o
+
+
+CMakeFiles/get.dir/startformat.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/startformat.c.o: ../startformat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/get.dir/startformat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/startformat.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/startformat.c
+
+CMakeFiles/get.dir/startformat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/startformat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/startformat.c > CMakeFiles/get.dir/startformat.c.i
+
+CMakeFiles/get.dir/startformat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/startformat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/startformat.c -o CMakeFiles/get.dir/startformat.c.s
+
+CMakeFiles/get.dir/startformat.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/startformat.c.o.requires
+
+CMakeFiles/get.dir/startformat.c.o.provides: CMakeFiles/get.dir/startformat.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/startformat.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/startformat.c.o.provides
+
+CMakeFiles/get.dir/startformat.c.o.provides.build: CMakeFiles/get.dir/startformat.c.o
+
+
+CMakeFiles/get.dir/searcharg.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/searcharg.c.o: ../searcharg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/get.dir/searcharg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/searcharg.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c
+
+CMakeFiles/get.dir/searcharg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/searcharg.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c > CMakeFiles/get.dir/searcharg.c.i
+
+CMakeFiles/get.dir/searcharg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/searcharg.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/searcharg.c -o CMakeFiles/get.dir/searcharg.c.s
+
+CMakeFiles/get.dir/searcharg.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/searcharg.c.o.requires
+
+CMakeFiles/get.dir/searcharg.c.o.provides: CMakeFiles/get.dir/searcharg.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/searcharg.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/searcharg.c.o.provides
+
+CMakeFiles/get.dir/searcharg.c.o.provides.build: CMakeFiles/get.dir/searcharg.c.o
+
+
+CMakeFiles/get.dir/utflen.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/utflen.c.o: ../utflen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/get.dir/utflen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/utflen.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/utflen.c
+
+CMakeFiles/get.dir/utflen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/utflen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/utflen.c > CMakeFiles/get.dir/utflen.c.i
+
+CMakeFiles/get.dir/utflen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/utflen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/utflen.c -o CMakeFiles/get.dir/utflen.c.s
+
+CMakeFiles/get.dir/utflen.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/utflen.c.o.requires
+
+CMakeFiles/get.dir/utflen.c.o.provides: CMakeFiles/get.dir/utflen.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/utflen.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/utflen.c.o.provides
+
+CMakeFiles/get.dir/utflen.c.o.provides.build: CMakeFiles/get.dir/utflen.c.o
+
+
 # Object files for target get
 get_OBJECTS = \
 "CMakeFiles/get.dir/main.c.o" \
@@ -1008,7 +1200,15 @@ get_OBJECTS = \
 "CMakeFiles/get.dir/cast_standart_for_base.c.o" \
 "CMakeFiles/get.dir/preox.c.o" \
 "CMakeFiles/get.dir/cast_mod_base.c.o" \
-"CMakeFiles/get.dir/base.c.o"
+"CMakeFiles/get.dir/base.c.o" \
+"CMakeFiles/get.dir/minusmissing.c.o" \
+"CMakeFiles/get.dir/minuspresent.c.o" \
+"CMakeFiles/get.dir/numnull.c.o" \
+"CMakeFiles/get.dir/cast_nnnnn.c.o" \
+"CMakeFiles/get.dir/createres.c.o" \
+"CMakeFiles/get.dir/startformat.c.o" \
+"CMakeFiles/get.dir/searcharg.c.o" \
+"CMakeFiles/get.dir/utflen.c.o"
 
 # External object files for target get
 get_EXTERNAL_OBJECTS =
@@ -1051,9 +1251,17 @@ get: CMakeFiles/get.dir/cast_standart_for_base.c.o
 get: CMakeFiles/get.dir/preox.c.o
 get: CMakeFiles/get.dir/cast_mod_base.c.o
 get: CMakeFiles/get.dir/base.c.o
+get: CMakeFiles/get.dir/minusmissing.c.o
+get: CMakeFiles/get.dir/minuspresent.c.o
+get: CMakeFiles/get.dir/numnull.c.o
+get: CMakeFiles/get.dir/cast_nnnnn.c.o
+get: CMakeFiles/get.dir/createres.c.o
+get: CMakeFiles/get.dir/startformat.c.o
+get: CMakeFiles/get.dir/searcharg.c.o
+get: CMakeFiles/get.dir/utflen.c.o
 get: CMakeFiles/get.dir/build.make
 get: CMakeFiles/get.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable get"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking C executable get"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/get.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1099,6 +1307,14 @@ CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_standart_for_base.c.o.requi
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/preox.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_mod_base.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/base.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/minusmissing.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/minuspresent.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/numnull.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_nnnnn.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/createres.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/startformat.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/searcharg.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/utflen.c.o.requires
 
 .PHONY : CMakeFiles/get.dir/requires
 
