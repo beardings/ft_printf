@@ -36,6 +36,7 @@ int number(const char *format, size_t i)
         k--;
     }
     num = ft_atoi(tmp);
+    free(tmp);
     return (num);
 }
 
@@ -96,8 +97,16 @@ int         checkhzmp(size_t i, const char *format, t_arg *res)
     format[i] == '-' ? res->minus = 1, k++ : 0;
     format[i] == ' ' ? res->space = 1, k++ : 0;
     format[i] == '.' ? res->press = 0, k = 1 : 0;
-    format[i] == '.' && (format[i + 1] > 48 && format[i + 1] < 58) ? res->press = number(format, i + 1), k = 1 + ft_lenint(res->press) : 0;
-    (format[i] > 48 && format[i] < 58) && format[i - 1] != '.' ? res->width = number(format, i), k = ft_lenint(res->width) : 0;
+    if (format[i] == '.' && (format[i + 1] > 48 && format[i + 1] < 58))
+    {
+        res->press = number(format, i + 1);
+        k = 1 + ft_lenint(res->press);
+    }
+    if ((format[i] > 48 && format[i] < 58) && format[i - 1] != '.')
+    {
+        res->width = number(format, i);
+        k = ft_lenint(res->width);
+    }
     return (k > 0 ? k : 0);
 }
 
@@ -108,8 +117,10 @@ size_t      startformat(size_t i, const char *format, t_arg *res)
     while (format[i] != '%' && format[i] != '\0')
     {
         k = 0;
-        if (!(checktype(i, format, res)) && !(k = (size_t)checkhzmp(i, format, res)) && !(k = (size_t)checkflags(i, format, res)))
-            return (i);
+        if (!(checktype(i, format, res)))
+            if (!(k = (size_t)checkhzmp(i, format, res)))
+                if (!(k = (size_t)checkflags(i, format, res)))
+                    return (i);
         k != 0 ? i += k : i++;
         if (res->type != '\0')
             return (i);
@@ -117,7 +128,6 @@ size_t      startformat(size_t i, const char *format, t_arg *res)
     return (i);
 }
 
-// ******* нужно учесть применение флагов до %
 size_t      searcharg(const char *format, va_list arg, t_arg *res)
 {
     size_t  i;
@@ -133,7 +143,14 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
             res->pro = (int)i;
             i = (startformat(i + 1, format, res));
             res->pro == (int)i ? res->pro = 1 : 0;
-            res->type != '\0' ? do_format(res), free(res), len +=res->len, res = createres(), res->tmp = va_arg(arg, void *) : 0;
+            if (res->type != '\0')
+            {
+                do_format(res);
+                free(res);
+                len +=res->len;
+                res = createres();
+                res->tmp = va_arg(arg, void *);
+            }
         }
         if (format[i] == '%' && format[i + 1] == '%')
             i++;
@@ -170,8 +187,11 @@ size_t      searcharg(const char *format, va_list arg, t_arg *res)
         len++;
         i++;
     }
+    free(res);
     return (len);
 }
+
+
 t_arg *createres()
 {
     t_arg   *res;

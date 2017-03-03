@@ -5,19 +5,12 @@
 #include "ft_printf.h"
 #include "locale.h"
 #include "limits.h"
-
 int main(void)
 {
     printf("\n");
-    printf("|len: %i", ft_printf("%5.d %5.0d", 0, 0));
+    printf("|len: %i", ft_printf("|%-6%|   |%6%|   |%6.2%|   |%-06%|   |%-06.3%|"));
     printf("\n");
-    printf("|len: %i", printf("%5.d %5.0d", 0, 0));
+    printf("|len: %i", printf("|%-6%|   |%6%|   |%6.2%|   |%-06%|   |%-06.3%|"));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
+
 }
-/*
-
-
-    assert_printf("{% 03d}", 0);
-
-    assert_printf("{%0-3d}", 0);
-*/

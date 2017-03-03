@@ -25,4 +25,6 @@ void printhesh(t_arg *res)
         ft_putnbr(0);
         res->len += 1;
     }
+    else if (res->type == 'u' || res->type == 'U')
+        res->hesh -= 1;
 }

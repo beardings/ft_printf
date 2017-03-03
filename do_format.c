@@ -179,7 +179,7 @@ int  numnull(t_arg *res)
             res->space > 0 ? res->width -= 1 + 1 : 0;
         }
         res->space > 0 ? write (1, " ", 1), res->len++ : 0;
-        res->press > 0 ? res->press -= 1 : 0;
+        res->press > 0 ? res->press -= 1, writepress(res) : 0;
         if (res->width > 0 && (res->zero == 0 || (res->press == 0 && res->zero == 1)))
         {
             writewidth(res);

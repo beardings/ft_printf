@@ -906,32 +906,32 @@ libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/libft/ft_strnew.c.s
 .PHONY : libft/ft_strnew.c.s
 
-main2.o: main2.c.o
+main.o: main.c.o
 
-.PHONY : main2.o
+.PHONY : main.o
 
 # target to build an object file
-main2.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.o
-.PHONY : main2.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.o
+.PHONY : main.c.o
 
-main2.i: main2.c.i
+main.i: main.c.i
 
-.PHONY : main2.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main2.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.i
-.PHONY : main2.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.i
+.PHONY : main.c.i
 
-main2.s: main2.c.s
+main.s: main.c.s
 
-.PHONY : main2.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main2.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.s
-.PHONY : main2.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
+.PHONY : main.c.s
 
 otherutf.o: otherutf.c.o
 
@@ -1245,9 +1245,9 @@ help:
 	@echo "... libft/ft_strnew.o"
 	@echo "... libft/ft_strnew.i"
 	@echo "... libft/ft_strnew.s"
-	@echo "... main2.o"
-	@echo "... main2.i"
-	@echo "... main2.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... otherutf.o"
 	@echo "... otherutf.i"
 	@echo "... otherutf.s"
