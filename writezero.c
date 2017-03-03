@@ -1,18 +1,26 @@
-//
-// Created by Mykola Ponomarov on 24.02.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   writezero.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/03 23:19:16 by mponomar          #+#    #+#             */
+/*   Updated: 2017/03/03 23:19:24 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void writezero(t_arg *res)
+void	writezero(t_arg *res)
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (i < res->width && res->width > 0)
-    {
-        ft_putnbr(0);
-        res->len += 1;
-        i++;
-    }
+	i = 0;
+	while (i < res->width && res->width > 0)
+	{
+		ft_putnbr(0);
+		res->len += 1;
+		i++;
+	}
 }
