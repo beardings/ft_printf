@@ -1,26 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstrnew.c                                     :+:      :+:    :+:   */
+/*   checktype.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/04 15:27:23 by mponomar          #+#    #+#             */
-/*   Updated: 2017/03/04 15:27:30 by mponomar         ###   ########.fr       */
+/*   Created: 2017/03/04 16:55:17 by mponomar          #+#    #+#             */
+/*   Updated: 2017/03/04 16:55:26 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putstrnew(char *tmp, int len, t_arg *res)
+int				checktype(size_t i, const char *format, t_arg *res)
 {
-	int	i;
+	char		*types;
+	size_t		k;
 
-	i = 0;
-	while (i < len)
+	k = 0;
+	types = "sSpdDioOuUxXcC";
+	while (types[k] != '\0')
 	{
-		write(1, &tmp[i], 1);
-		res->len += 1;
-		i++;
+		if (format[i] == types[k])
+		{
+			res->type = format[i];
+			return (1);
+		}
+		k++;
 	}
+	return (0);
 }

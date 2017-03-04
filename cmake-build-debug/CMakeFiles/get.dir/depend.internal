@@ -21,8 +21,8 @@ CMakeFiles/get.dir/cast_standart_for_base.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
-CMakeFiles/get.dir/castflag_bigS.c.o
- /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c
+CMakeFiles/get.dir/castflag_bigs.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/castflag_c.c.o
@@ -33,8 +33,8 @@ CMakeFiles/get.dir/castflag_s.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
-CMakeFiles/get.dir/castpress_bigS.c.o
- /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c
+CMakeFiles/get.dir/castpress_bigs.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/castpress_s.c.o
@@ -43,6 +43,10 @@ CMakeFiles/get.dir/castpress_s.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/checkcan.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+CMakeFiles/get.dir/checktype.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/checktype.c
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
 CMakeFiles/get.dir/createres.c.o
@@ -151,6 +155,10 @@ CMakeFiles/get.dir/upperarg.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
  /nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c
+CMakeFiles/get.dir/utflen.c.o
+ /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h
+ /nfs/2016/m/mponomar/project/git/ft_printf/utflen.c
 CMakeFiles/get.dir/writepress.c.o
  /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
  /nfs/2016/m/mponomar/project/git/ft_printf/libft/libft.h

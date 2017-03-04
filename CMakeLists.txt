@@ -31,10 +31,10 @@ set(SOURCE_FILES main.c /
         printhesh.c /
         ft_null.c /
         writewchar_t.c /
-        castflag_bigS.c /
+        castflag_bigs.c /
         writepress.c /
         dowchar_t.c /
-        castpress_bigS.c /
+        castpress_bigs.c /
         otherutf.c /
         checkcan.c /
         cast_mod.c /
@@ -49,5 +49,8 @@ set(SOURCE_FILES main.c /
         createres.c /
         startformat.c /
         searcharg.c /
-        utflen.c)
+        utflen.c /
+        checktype.c /
+        cast_mod_cont.c /
+        cast_mod_b.c cast_mod_contn.c)
 add_executable(get ${SOURCE_FILES})

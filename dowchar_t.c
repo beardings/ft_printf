@@ -1,17 +1,25 @@
-//
-// Created by Mykola Ponomarov on 27.02.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   dowchar_t.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/04 16:08:55 by mponomar          #+#    #+#             */
+/*   Updated: 2017/03/04 16:09:02 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void dowchar_t(wchar_t *tmp, t_arg *res, int len)
+void	dowchar_t(wchar_t *tmp, t_arg *res, int len)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (i < len)
-    {
-        writewchar_t(tmp[i], res);
-        i++;
-    }
+	i = 0;
+	while (i < len)
+	{
+		writewchar_t(tmp[i], res);
+		i++;
+	}
 }

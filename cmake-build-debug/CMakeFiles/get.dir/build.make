@@ -705,28 +705,28 @@ CMakeFiles/get.dir/writewchar_t.c.o.provides: CMakeFiles/get.dir/writewchar_t.c.
 CMakeFiles/get.dir/writewchar_t.c.o.provides.build: CMakeFiles/get.dir/writewchar_t.c.o
 
 
-CMakeFiles/get.dir/castflag_bigS.c.o: CMakeFiles/get.dir/flags.make
-CMakeFiles/get.dir/castflag_bigS.c.o: ../castflag_bigS.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/get.dir/castflag_bigS.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/castflag_bigS.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c
+CMakeFiles/get.dir/castflag_bigs.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/castflag_bigs.c.o: ../castflag_bigs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/get.dir/castflag_bigs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/castflag_bigs.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c
 
-CMakeFiles/get.dir/castflag_bigS.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/castflag_bigS.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c > CMakeFiles/get.dir/castflag_bigS.c.i
+CMakeFiles/get.dir/castflag_bigs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/castflag_bigs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c > CMakeFiles/get.dir/castflag_bigs.c.i
 
-CMakeFiles/get.dir/castflag_bigS.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/castflag_bigS.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c -o CMakeFiles/get.dir/castflag_bigS.c.s
+CMakeFiles/get.dir/castflag_bigs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/castflag_bigs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c -o CMakeFiles/get.dir/castflag_bigs.c.s
 
-CMakeFiles/get.dir/castflag_bigS.c.o.requires:
+CMakeFiles/get.dir/castflag_bigs.c.o.requires:
 
-.PHONY : CMakeFiles/get.dir/castflag_bigS.c.o.requires
+.PHONY : CMakeFiles/get.dir/castflag_bigs.c.o.requires
 
-CMakeFiles/get.dir/castflag_bigS.c.o.provides: CMakeFiles/get.dir/castflag_bigS.c.o.requires
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.o.provides.build
-.PHONY : CMakeFiles/get.dir/castflag_bigS.c.o.provides
+CMakeFiles/get.dir/castflag_bigs.c.o.provides: CMakeFiles/get.dir/castflag_bigs.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigs.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/castflag_bigs.c.o.provides
 
-CMakeFiles/get.dir/castflag_bigS.c.o.provides.build: CMakeFiles/get.dir/castflag_bigS.c.o
+CMakeFiles/get.dir/castflag_bigs.c.o.provides.build: CMakeFiles/get.dir/castflag_bigs.c.o
 
 
 CMakeFiles/get.dir/writepress.c.o: CMakeFiles/get.dir/flags.make
@@ -777,28 +777,28 @@ CMakeFiles/get.dir/dowchar_t.c.o.provides: CMakeFiles/get.dir/dowchar_t.c.o.requ
 CMakeFiles/get.dir/dowchar_t.c.o.provides.build: CMakeFiles/get.dir/dowchar_t.c.o
 
 
-CMakeFiles/get.dir/castpress_bigS.c.o: CMakeFiles/get.dir/flags.make
-CMakeFiles/get.dir/castpress_bigS.c.o: ../castpress_bigS.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/get.dir/castpress_bigS.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/castpress_bigS.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c
+CMakeFiles/get.dir/castpress_bigs.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/castpress_bigs.c.o: ../castpress_bigs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/get.dir/castpress_bigs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/castpress_bigs.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c
 
-CMakeFiles/get.dir/castpress_bigS.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/castpress_bigS.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c > CMakeFiles/get.dir/castpress_bigS.c.i
+CMakeFiles/get.dir/castpress_bigs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/castpress_bigs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c > CMakeFiles/get.dir/castpress_bigs.c.i
 
-CMakeFiles/get.dir/castpress_bigS.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/castpress_bigS.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c -o CMakeFiles/get.dir/castpress_bigS.c.s
+CMakeFiles/get.dir/castpress_bigs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/castpress_bigs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c -o CMakeFiles/get.dir/castpress_bigs.c.s
 
-CMakeFiles/get.dir/castpress_bigS.c.o.requires:
+CMakeFiles/get.dir/castpress_bigs.c.o.requires:
 
-.PHONY : CMakeFiles/get.dir/castpress_bigS.c.o.requires
+.PHONY : CMakeFiles/get.dir/castpress_bigs.c.o.requires
 
-CMakeFiles/get.dir/castpress_bigS.c.o.provides: CMakeFiles/get.dir/castpress_bigS.c.o.requires
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.o.provides.build
-.PHONY : CMakeFiles/get.dir/castpress_bigS.c.o.provides
+CMakeFiles/get.dir/castpress_bigs.c.o.provides: CMakeFiles/get.dir/castpress_bigs.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigs.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/castpress_bigs.c.o.provides
 
-CMakeFiles/get.dir/castpress_bigS.c.o.provides.build: CMakeFiles/get.dir/castpress_bigS.c.o
+CMakeFiles/get.dir/castpress_bigs.c.o.provides.build: CMakeFiles/get.dir/castpress_bigs.c.o
 
 
 CMakeFiles/get.dir/otherutf.c.o: CMakeFiles/get.dir/flags.make
@@ -1161,6 +1161,102 @@ CMakeFiles/get.dir/utflen.c.o.provides: CMakeFiles/get.dir/utflen.c.o.requires
 CMakeFiles/get.dir/utflen.c.o.provides.build: CMakeFiles/get.dir/utflen.c.o
 
 
+CMakeFiles/get.dir/checktype.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/checktype.c.o: ../checktype.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/get.dir/checktype.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/checktype.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/checktype.c
+
+CMakeFiles/get.dir/checktype.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/checktype.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/checktype.c > CMakeFiles/get.dir/checktype.c.i
+
+CMakeFiles/get.dir/checktype.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/checktype.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/checktype.c -o CMakeFiles/get.dir/checktype.c.s
+
+CMakeFiles/get.dir/checktype.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/checktype.c.o.requires
+
+CMakeFiles/get.dir/checktype.c.o.provides: CMakeFiles/get.dir/checktype.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checktype.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/checktype.c.o.provides
+
+CMakeFiles/get.dir/checktype.c.o.provides.build: CMakeFiles/get.dir/checktype.c.o
+
+
+CMakeFiles/get.dir/cast_mod_cont.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/cast_mod_cont.c.o: ../cast_mod_cont.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/get.dir/cast_mod_cont.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/cast_mod_cont.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_cont.c
+
+CMakeFiles/get.dir/cast_mod_cont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/cast_mod_cont.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_cont.c > CMakeFiles/get.dir/cast_mod_cont.c.i
+
+CMakeFiles/get.dir/cast_mod_cont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/cast_mod_cont.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_cont.c -o CMakeFiles/get.dir/cast_mod_cont.c.s
+
+CMakeFiles/get.dir/cast_mod_cont.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/cast_mod_cont.c.o.requires
+
+CMakeFiles/get.dir/cast_mod_cont.c.o.provides: CMakeFiles/get.dir/cast_mod_cont.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_cont.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/cast_mod_cont.c.o.provides
+
+CMakeFiles/get.dir/cast_mod_cont.c.o.provides.build: CMakeFiles/get.dir/cast_mod_cont.c.o
+
+
+CMakeFiles/get.dir/cast_mod_b.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/cast_mod_b.c.o: ../cast_mod_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/get.dir/cast_mod_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/cast_mod_b.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_b.c
+
+CMakeFiles/get.dir/cast_mod_b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/cast_mod_b.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_b.c > CMakeFiles/get.dir/cast_mod_b.c.i
+
+CMakeFiles/get.dir/cast_mod_b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/cast_mod_b.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_b.c -o CMakeFiles/get.dir/cast_mod_b.c.s
+
+CMakeFiles/get.dir/cast_mod_b.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/cast_mod_b.c.o.requires
+
+CMakeFiles/get.dir/cast_mod_b.c.o.provides: CMakeFiles/get.dir/cast_mod_b.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_b.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/cast_mod_b.c.o.provides
+
+CMakeFiles/get.dir/cast_mod_b.c.o.provides.build: CMakeFiles/get.dir/cast_mod_b.c.o
+
+
+CMakeFiles/get.dir/cast_mod_contn.c.o: CMakeFiles/get.dir/flags.make
+CMakeFiles/get.dir/cast_mod_contn.c.o: ../cast_mod_contn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/get.dir/cast_mod_contn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get.dir/cast_mod_contn.c.o   -c /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c
+
+CMakeFiles/get.dir/cast_mod_contn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get.dir/cast_mod_contn.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c > CMakeFiles/get.dir/cast_mod_contn.c.i
+
+CMakeFiles/get.dir/cast_mod_contn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get.dir/cast_mod_contn.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c -o CMakeFiles/get.dir/cast_mod_contn.c.s
+
+CMakeFiles/get.dir/cast_mod_contn.c.o.requires:
+
+.PHONY : CMakeFiles/get.dir/cast_mod_contn.c.o.requires
+
+CMakeFiles/get.dir/cast_mod_contn.c.o.provides: CMakeFiles/get.dir/cast_mod_contn.c.o.requires
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contn.c.o.provides.build
+.PHONY : CMakeFiles/get.dir/cast_mod_contn.c.o.provides
+
+CMakeFiles/get.dir/cast_mod_contn.c.o.provides.build: CMakeFiles/get.dir/cast_mod_contn.c.o
+
+
 # Object files for target get
 get_OBJECTS = \
 "CMakeFiles/get.dir/main.c.o" \
@@ -1190,10 +1286,10 @@ get_OBJECTS = \
 "CMakeFiles/get.dir/printhesh.c.o" \
 "CMakeFiles/get.dir/ft_null.c.o" \
 "CMakeFiles/get.dir/writewchar_t.c.o" \
-"CMakeFiles/get.dir/castflag_bigS.c.o" \
+"CMakeFiles/get.dir/castflag_bigs.c.o" \
 "CMakeFiles/get.dir/writepress.c.o" \
 "CMakeFiles/get.dir/dowchar_t.c.o" \
-"CMakeFiles/get.dir/castpress_bigS.c.o" \
+"CMakeFiles/get.dir/castpress_bigs.c.o" \
 "CMakeFiles/get.dir/otherutf.c.o" \
 "CMakeFiles/get.dir/checkcan.c.o" \
 "CMakeFiles/get.dir/cast_mod.c.o" \
@@ -1208,7 +1304,11 @@ get_OBJECTS = \
 "CMakeFiles/get.dir/createres.c.o" \
 "CMakeFiles/get.dir/startformat.c.o" \
 "CMakeFiles/get.dir/searcharg.c.o" \
-"CMakeFiles/get.dir/utflen.c.o"
+"CMakeFiles/get.dir/utflen.c.o" \
+"CMakeFiles/get.dir/checktype.c.o" \
+"CMakeFiles/get.dir/cast_mod_cont.c.o" \
+"CMakeFiles/get.dir/cast_mod_b.c.o" \
+"CMakeFiles/get.dir/cast_mod_contn.c.o"
 
 # External object files for target get
 get_EXTERNAL_OBJECTS =
@@ -1240,10 +1340,10 @@ get: CMakeFiles/get.dir/upperarg.c.o
 get: CMakeFiles/get.dir/printhesh.c.o
 get: CMakeFiles/get.dir/ft_null.c.o
 get: CMakeFiles/get.dir/writewchar_t.c.o
-get: CMakeFiles/get.dir/castflag_bigS.c.o
+get: CMakeFiles/get.dir/castflag_bigs.c.o
 get: CMakeFiles/get.dir/writepress.c.o
 get: CMakeFiles/get.dir/dowchar_t.c.o
-get: CMakeFiles/get.dir/castpress_bigS.c.o
+get: CMakeFiles/get.dir/castpress_bigs.c.o
 get: CMakeFiles/get.dir/otherutf.c.o
 get: CMakeFiles/get.dir/checkcan.c.o
 get: CMakeFiles/get.dir/cast_mod.c.o
@@ -1259,9 +1359,13 @@ get: CMakeFiles/get.dir/createres.c.o
 get: CMakeFiles/get.dir/startformat.c.o
 get: CMakeFiles/get.dir/searcharg.c.o
 get: CMakeFiles/get.dir/utflen.c.o
+get: CMakeFiles/get.dir/checktype.c.o
+get: CMakeFiles/get.dir/cast_mod_cont.c.o
+get: CMakeFiles/get.dir/cast_mod_b.c.o
+get: CMakeFiles/get.dir/cast_mod_contn.c.o
 get: CMakeFiles/get.dir/build.make
 get: CMakeFiles/get.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking C executable get"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking C executable get"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/get.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1296,10 +1400,10 @@ CMakeFiles/get.dir/requires: CMakeFiles/get.dir/upperarg.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/printhesh.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/ft_null.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/writewchar_t.c.o.requires
-CMakeFiles/get.dir/requires: CMakeFiles/get.dir/castflag_bigS.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/castflag_bigs.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/writepress.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/dowchar_t.c.o.requires
-CMakeFiles/get.dir/requires: CMakeFiles/get.dir/castpress_bigS.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/castpress_bigs.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/otherutf.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/checkcan.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_mod.c.o.requires
@@ -1315,6 +1419,10 @@ CMakeFiles/get.dir/requires: CMakeFiles/get.dir/createres.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/startformat.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/searcharg.c.o.requires
 CMakeFiles/get.dir/requires: CMakeFiles/get.dir/utflen.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/checktype.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_mod_cont.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_mod_b.c.o.requires
+CMakeFiles/get.dir/requires: CMakeFiles/get.dir/cast_mod_contn.c.o.requires
 
 .PHONY : CMakeFiles/get.dir/requires
 

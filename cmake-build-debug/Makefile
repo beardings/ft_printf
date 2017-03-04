@@ -177,6 +177,33 @@ cast_mod.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod.c.s
 .PHONY : cast_mod.c.s
 
+cast_mod_b.o: cast_mod_b.c.o
+
+.PHONY : cast_mod_b.o
+
+# target to build an object file
+cast_mod_b.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_b.c.o
+.PHONY : cast_mod_b.c.o
+
+cast_mod_b.i: cast_mod_b.c.i
+
+.PHONY : cast_mod_b.i
+
+# target to preprocess a source file
+cast_mod_b.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_b.c.i
+.PHONY : cast_mod_b.c.i
+
+cast_mod_b.s: cast_mod_b.c.s
+
+.PHONY : cast_mod_b.s
+
+# target to generate assembly for a file
+cast_mod_b.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_b.c.s
+.PHONY : cast_mod_b.c.s
+
 cast_mod_base.o: cast_mod_base.c.o
 
 .PHONY : cast_mod_base.o
@@ -203,6 +230,60 @@ cast_mod_base.s: cast_mod_base.c.s
 cast_mod_base.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_base.c.s
 .PHONY : cast_mod_base.c.s
+
+cast_mod_cont.o: cast_mod_cont.c.o
+
+.PHONY : cast_mod_cont.o
+
+# target to build an object file
+cast_mod_cont.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_cont.c.o
+.PHONY : cast_mod_cont.c.o
+
+cast_mod_cont.i: cast_mod_cont.c.i
+
+.PHONY : cast_mod_cont.i
+
+# target to preprocess a source file
+cast_mod_cont.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_cont.c.i
+.PHONY : cast_mod_cont.c.i
+
+cast_mod_cont.s: cast_mod_cont.c.s
+
+.PHONY : cast_mod_cont.s
+
+# target to generate assembly for a file
+cast_mod_cont.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_cont.c.s
+.PHONY : cast_mod_cont.c.s
+
+cast_mod_contn.o: cast_mod_contn.c.o
+
+.PHONY : cast_mod_contn.o
+
+# target to build an object file
+cast_mod_contn.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contn.c.o
+.PHONY : cast_mod_contn.c.o
+
+cast_mod_contn.i: cast_mod_contn.c.i
+
+.PHONY : cast_mod_contn.i
+
+# target to preprocess a source file
+cast_mod_contn.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contn.c.i
+.PHONY : cast_mod_contn.c.i
+
+cast_mod_contn.s: cast_mod_contn.c.s
+
+.PHONY : cast_mod_contn.s
+
+# target to generate assembly for a file
+cast_mod_contn.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contn.c.s
+.PHONY : cast_mod_contn.c.s
 
 cast_nnnnn.o: cast_nnnnn.c.o
 
@@ -258,32 +339,32 @@ cast_standart_for_base.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_standart_for_base.c.s
 .PHONY : cast_standart_for_base.c.s
 
-castflag_bigS.o: castflag_bigS.c.o
+castflag_bigs.o: castflag_bigs.c.o
 
-.PHONY : castflag_bigS.o
+.PHONY : castflag_bigs.o
 
 # target to build an object file
-castflag_bigS.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.o
-.PHONY : castflag_bigS.c.o
+castflag_bigs.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigs.c.o
+.PHONY : castflag_bigs.c.o
 
-castflag_bigS.i: castflag_bigS.c.i
+castflag_bigs.i: castflag_bigs.c.i
 
-.PHONY : castflag_bigS.i
+.PHONY : castflag_bigs.i
 
 # target to preprocess a source file
-castflag_bigS.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.i
-.PHONY : castflag_bigS.c.i
+castflag_bigs.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigs.c.i
+.PHONY : castflag_bigs.c.i
 
-castflag_bigS.s: castflag_bigS.c.s
+castflag_bigs.s: castflag_bigs.c.s
 
-.PHONY : castflag_bigS.s
+.PHONY : castflag_bigs.s
 
 # target to generate assembly for a file
-castflag_bigS.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigS.c.s
-.PHONY : castflag_bigS.c.s
+castflag_bigs.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_bigs.c.s
+.PHONY : castflag_bigs.c.s
 
 castflag_c.o: castflag_c.c.o
 
@@ -339,32 +420,32 @@ castflag_s.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castflag_s.c.s
 .PHONY : castflag_s.c.s
 
-castpress_bigS.o: castpress_bigS.c.o
+castpress_bigs.o: castpress_bigs.c.o
 
-.PHONY : castpress_bigS.o
+.PHONY : castpress_bigs.o
 
 # target to build an object file
-castpress_bigS.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.o
-.PHONY : castpress_bigS.c.o
+castpress_bigs.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigs.c.o
+.PHONY : castpress_bigs.c.o
 
-castpress_bigS.i: castpress_bigS.c.i
+castpress_bigs.i: castpress_bigs.c.i
 
-.PHONY : castpress_bigS.i
+.PHONY : castpress_bigs.i
 
 # target to preprocess a source file
-castpress_bigS.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.i
-.PHONY : castpress_bigS.c.i
+castpress_bigs.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigs.c.i
+.PHONY : castpress_bigs.c.i
 
-castpress_bigS.s: castpress_bigS.c.s
+castpress_bigs.s: castpress_bigs.c.s
 
-.PHONY : castpress_bigS.s
+.PHONY : castpress_bigs.s
 
 # target to generate assembly for a file
-castpress_bigS.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigS.c.s
-.PHONY : castpress_bigS.c.s
+castpress_bigs.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/castpress_bigs.c.s
+.PHONY : castpress_bigs.c.s
 
 castpress_s.o: castpress_s.c.o
 
@@ -419,6 +500,33 @@ checkcan.s: checkcan.c.s
 checkcan.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checkcan.c.s
 .PHONY : checkcan.c.s
+
+checktype.o: checktype.c.o
+
+.PHONY : checktype.o
+
+# target to build an object file
+checktype.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checktype.c.o
+.PHONY : checktype.c.o
+
+checktype.i: checktype.c.i
+
+.PHONY : checktype.i
+
+# target to preprocess a source file
+checktype.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checktype.c.i
+.PHONY : checktype.c.i
+
+checktype.s: checktype.c.s
+
+.PHONY : checktype.s
+
+# target to generate assembly for a file
+checktype.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/checktype.c.s
+.PHONY : checktype.c.s
 
 createres.o: createres.c.o
 
@@ -1380,33 +1488,45 @@ help:
 	@echo "... cast_mod.o"
 	@echo "... cast_mod.i"
 	@echo "... cast_mod.s"
+	@echo "... cast_mod_b.o"
+	@echo "... cast_mod_b.i"
+	@echo "... cast_mod_b.s"
 	@echo "... cast_mod_base.o"
 	@echo "... cast_mod_base.i"
 	@echo "... cast_mod_base.s"
+	@echo "... cast_mod_cont.o"
+	@echo "... cast_mod_cont.i"
+	@echo "... cast_mod_cont.s"
+	@echo "... cast_mod_contn.o"
+	@echo "... cast_mod_contn.i"
+	@echo "... cast_mod_contn.s"
 	@echo "... cast_nnnnn.o"
 	@echo "... cast_nnnnn.i"
 	@echo "... cast_nnnnn.s"
 	@echo "... cast_standart_for_base.o"
 	@echo "... cast_standart_for_base.i"
 	@echo "... cast_standart_for_base.s"
-	@echo "... castflag_bigS.o"
-	@echo "... castflag_bigS.i"
-	@echo "... castflag_bigS.s"
+	@echo "... castflag_bigs.o"
+	@echo "... castflag_bigs.i"
+	@echo "... castflag_bigs.s"
 	@echo "... castflag_c.o"
 	@echo "... castflag_c.i"
 	@echo "... castflag_c.s"
 	@echo "... castflag_s.o"
 	@echo "... castflag_s.i"
 	@echo "... castflag_s.s"
-	@echo "... castpress_bigS.o"
-	@echo "... castpress_bigS.i"
-	@echo "... castpress_bigS.s"
+	@echo "... castpress_bigs.o"
+	@echo "... castpress_bigs.i"
+	@echo "... castpress_bigs.s"
 	@echo "... castpress_s.o"
 	@echo "... castpress_s.i"
 	@echo "... castpress_s.s"
 	@echo "... checkcan.o"
 	@echo "... checkcan.i"
 	@echo "... checkcan.s"
+	@echo "... checktype.o"
+	@echo "... checktype.i"
+	@echo "... checktype.s"
 	@echo "... createres.o"
 	@echo "... createres.i"
 	@echo "... createres.s"

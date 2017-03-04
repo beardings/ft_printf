@@ -91,7 +91,16 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_b.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_base.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_cont.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c">
@@ -100,7 +109,7 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_standart_for_base.c">
 			<Option target="get"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_c.c">
@@ -109,13 +118,16 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castflag_s.c">
 			<Option target="get"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/castpress_s.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/checktype.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/createres.c">

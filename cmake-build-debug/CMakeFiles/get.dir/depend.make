@@ -21,9 +21,9 @@ CMakeFiles/get.dir/cast_standart_for_base.c.o: ../cast_standart_for_base.c
 CMakeFiles/get.dir/cast_standart_for_base.c.o: ../ft_printf.h
 CMakeFiles/get.dir/cast_standart_for_base.c.o: ../libft/libft.h
 
-CMakeFiles/get.dir/castflag_bigS.c.o: ../castflag_bigS.c
-CMakeFiles/get.dir/castflag_bigS.c.o: ../ft_printf.h
-CMakeFiles/get.dir/castflag_bigS.c.o: ../libft/libft.h
+CMakeFiles/get.dir/castflag_bigs.c.o: ../castflag_bigs.c
+CMakeFiles/get.dir/castflag_bigs.c.o: ../ft_printf.h
+CMakeFiles/get.dir/castflag_bigs.c.o: ../libft/libft.h
 
 CMakeFiles/get.dir/castflag_c.c.o: ../castflag_c.c
 CMakeFiles/get.dir/castflag_c.c.o: ../ft_printf.h
@@ -33,9 +33,9 @@ CMakeFiles/get.dir/castflag_s.c.o: ../castflag_s.c
 CMakeFiles/get.dir/castflag_s.c.o: ../ft_printf.h
 CMakeFiles/get.dir/castflag_s.c.o: ../libft/libft.h
 
-CMakeFiles/get.dir/castpress_bigS.c.o: ../castpress_bigS.c
-CMakeFiles/get.dir/castpress_bigS.c.o: ../ft_printf.h
-CMakeFiles/get.dir/castpress_bigS.c.o: ../libft/libft.h
+CMakeFiles/get.dir/castpress_bigs.c.o: ../castpress_bigs.c
+CMakeFiles/get.dir/castpress_bigs.c.o: ../ft_printf.h
+CMakeFiles/get.dir/castpress_bigs.c.o: ../libft/libft.h
 
 CMakeFiles/get.dir/castpress_s.c.o: ../castpress_s.c
 CMakeFiles/get.dir/castpress_s.c.o: ../ft_printf.h
@@ -44,6 +44,10 @@ CMakeFiles/get.dir/castpress_s.c.o: ../libft/libft.h
 CMakeFiles/get.dir/checkcan.c.o: ../checkcan.c
 CMakeFiles/get.dir/checkcan.c.o: ../ft_printf.h
 CMakeFiles/get.dir/checkcan.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/checktype.c.o: ../checktype.c
+CMakeFiles/get.dir/checktype.c.o: ../ft_printf.h
+CMakeFiles/get.dir/checktype.c.o: ../libft/libft.h
 
 CMakeFiles/get.dir/createres.c.o: ../createres.c
 CMakeFiles/get.dir/createres.c.o: ../ft_printf.h
@@ -150,6 +154,10 @@ CMakeFiles/get.dir/startformat.c.o: ../startformat.c
 CMakeFiles/get.dir/upperarg.c.o: ../ft_printf.h
 CMakeFiles/get.dir/upperarg.c.o: ../libft/libft.h
 CMakeFiles/get.dir/upperarg.c.o: ../upperarg.c
+
+CMakeFiles/get.dir/utflen.c.o: ../ft_printf.h
+CMakeFiles/get.dir/utflen.c.o: ../libft/libft.h
+CMakeFiles/get.dir/utflen.c.o: ../utflen.c
 
 CMakeFiles/get.dir/writepress.c.o: ../ft_printf.h
 CMakeFiles/get.dir/writepress.c.o: ../libft/libft.h

@@ -1,26 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstrnew.c                                     :+:      :+:    :+:   */
+/*   cast_mod_b.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/03/04 15:27:23 by mponomar          #+#    #+#             */
-/*   Updated: 2017/03/04 15:27:30 by mponomar         ###   ########.fr       */
+/*   Created: 2017/03/04 17:32:13 by mponomar          #+#    #+#             */
+/*   Updated: 2017/03/04 17:32:42 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putstrnew(char *tmp, int len, t_arg *res)
+void	cast_mod_b(char *tmp, int len, t_arg *res)
 {
-	int	i;
-
-	i = 0;
-	while (i < len)
-	{
-		write(1, &tmp[i], 1);
-		res->len += 1;
-		i++;
-	}
+	res->type == 'p' ? res->width -= len + 2 : 0;
+	res->type != 'p' ? res->width -= len : 0;
+	writewidth(res);
+	res->type == 'p' ? preox(res) : 0;
+	ft_putstr(tmp);
+	res->len += len;
 }

@@ -6,7 +6,7 @@
 #    By: mponomar <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/02/25 22:32:07 by mponomar          #+#    #+#              #
-#    Updated: 2017/03/03 22:57:07 by mponomar         ###   ########.fr        #
+#    Updated: 2017/03/04 17:56:53 by mponomar         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -38,10 +38,10 @@ SOURCE = ft_printf.c \
 		printhesh.c \
 		ft_null.c \
 		writewchar_t.c \
-		castflag_bigS.c \
+		castflag_bigs.c \
 		writepress.c \
 		dowchar_t.c \
-		castpress_bigS.c \
+		castpress_bigs.c \
 		otherutf.c \
 		checkcan.c \
 		cast_mod.c \
@@ -56,7 +56,11 @@ SOURCE = ft_printf.c \
 		createres.c \
 		startformat.c \
 		searcharg.c \
-		utflen.c
+		utflen.c \
+		checktype.c \
+		cast_mod_cont.c \
+		cast_mod_b.c \
+		cast_mod_contn.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

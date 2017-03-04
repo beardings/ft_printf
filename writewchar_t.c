@@ -6,14 +6,22 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/03 23:21:33 by mponomar          #+#    #+#             */
-/*   Updated: 2017/03/03 23:25:29 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/03/04 16:51:23 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#define A() ft_putchar((char)((c >> 6) + 0xC0)), ft_putchar((char)((c & 0x3F) + 0x80))
 
-void	writewchar_t(wchar_t c, t_arg *res)
+static void		write_tn(wchar_t c, t_arg *res)
+{
+	ft_putchar((char)((c >> 18) + 0xF0));
+	ft_putchar((char)(((c >> 12) & 0x3F) + 0x80));
+	ft_putchar((char)(((c >> 6) & 0x3F) + 0x80));
+	ft_putchar((char)((c & 0x3F) + 0x80));
+	res->len += 4;
+}
+
+void			writewchar_t(wchar_t c, t_arg *res)
 {
 	if (c <= 0x7F)
 	{
@@ -22,20 +30,17 @@ void	writewchar_t(wchar_t c, t_arg *res)
 	}
 	else if (c <= 0x7FF)
 	{
-		A();
+		ft_putchar((char)((c >> 6) + 0xC0));
+		ft_putchar((char)((c & 0x3F) + 0x80));
 		res->len += 2;
 	}
 	else if (c <= 0xFFFF)
 	{
 		ft_putchar((char)((c >> 12) + 0xE0));
-		A();
+		ft_putchar((char)(((c >> 6) & 0x3F) + 0x80));
+		ft_putchar((char)((c & 0x3F) + 0x80));
 		res->len += 3;
 	}
 	else if (c <= 0x10FFFF)
-	{
-		ft_putchar((char)((c >> 18) + 0xF0));
-		ft_putchar((char)(((c >> 12) & 0x3F) + 0x80));
-		A();
-		res->len += 4;
-	}
+		write_tn(c, res);
 }

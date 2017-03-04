@@ -7,10 +7,11 @@
 #include "limits.h"
 int main(void)
 {
+    setlocale(LC_CTYPE, "");
     printf("\n");
-    printf("|len: %i", ft_printf("{%-15Z}", 123));
+    printf("|len: %i", ft_printf("{%S}", L"O™"));
     printf("\n");
-    printf("|len: %i", printf("{%-15Z}", 123));
+    printf("|len: %i", printf("{%S}", L"O™"));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 
 }

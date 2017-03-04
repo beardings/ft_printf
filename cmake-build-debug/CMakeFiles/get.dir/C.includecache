@@ -26,7 +26,7 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
-/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigS.c
+/nfs/2016/m/mponomar/project/git/ft_printf/castflag_bigs.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -38,7 +38,7 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
-/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigS.c
+/nfs/2016/m/mponomar/project/git/ft_printf/castpress_bigs.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -47,6 +47,10 @@ ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/checkcan.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/checktype.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -185,6 +189,10 @@ ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
 /nfs/2016/m/mponomar/project/git/ft_printf/upperarg.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/utflen.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
