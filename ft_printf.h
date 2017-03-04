@@ -77,7 +77,7 @@ void			cast_nnnnn(int i, t_arg *res, char *tmp);
 int				utflen(wchar_t *tmp);
 void cast_mod_cont(char *tmp, int len, t_arg *res);
 void cast_mod_b(char *tmp, int len, t_arg *res);
-void	cast_mod_contn(char *tmp, int len, t_arg *res);
+void cast_mod_contn(char *tmp, int len, t_arg *res);
 void cast_modd(char *tmp, int len, t_arg *res);
 void cast_moddd(char *tmp, int len, t_arg *res);
 

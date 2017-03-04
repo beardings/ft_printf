@@ -52,5 +52,6 @@ set(SOURCE_FILES main.c /
         utflen.c /
         checktype.c /
         cast_mod_cont.c /
-        cast_mod_b.c cast_mod_contn.c)
+        cast_mod_b.c /
+        cast_mod_contn.c)
 add_executable(get ${SOURCE_FILES})
