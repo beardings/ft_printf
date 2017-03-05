@@ -60,7 +60,10 @@ SOURCE = ft_printf.c \
 		checktype.c \
 		cast_mod_cont.c \
 		cast_mod_b.c \
-		cast_mod_contn.c
+		cast_mod_contn.c \
+		cast_modnex.c \
+		cast_mod_next.c \
+		cast_mod_contnext.c
 
 OBJECTS = $(SOURCE:.c=.o)
 

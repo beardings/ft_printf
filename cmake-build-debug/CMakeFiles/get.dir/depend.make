@@ -9,9 +9,33 @@ CMakeFiles/get.dir/cast_mod.c.o: ../cast_mod.c
 CMakeFiles/get.dir/cast_mod.c.o: ../ft_printf.h
 CMakeFiles/get.dir/cast_mod.c.o: ../libft/libft.h
 
+CMakeFiles/get.dir/cast_mod_b.c.o: ../cast_mod_b.c
+CMakeFiles/get.dir/cast_mod_b.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_mod_b.c.o: ../libft/libft.h
+
 CMakeFiles/get.dir/cast_mod_base.c.o: ../cast_mod_base.c
 CMakeFiles/get.dir/cast_mod_base.c.o: ../ft_printf.h
 CMakeFiles/get.dir/cast_mod_base.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/cast_mod_cont.c.o: ../cast_mod_cont.c
+CMakeFiles/get.dir/cast_mod_cont.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_mod_cont.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/cast_mod_contn.c.o: ../cast_mod_contn.c
+CMakeFiles/get.dir/cast_mod_contn.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_mod_contn.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/cast_mod_contnext.c.o: ../cast_mod_contnext.c
+CMakeFiles/get.dir/cast_mod_contnext.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_mod_contnext.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/cast_mod_next.c.o: ../cast_mod_next.c
+CMakeFiles/get.dir/cast_mod_next.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_mod_next.c.o: ../libft/libft.h
+
+CMakeFiles/get.dir/cast_modnex.c.o: ../cast_modnex.c
+CMakeFiles/get.dir/cast_modnex.c.o: ../ft_printf.h
+CMakeFiles/get.dir/cast_modnex.c.o: ../libft/libft.h
 
 CMakeFiles/get.dir/cast_nnnnn.c.o: ../cast_nnnnn.c
 CMakeFiles/get.dir/cast_nnnnn.c.o: ../ft_printf.h
@@ -115,9 +139,7 @@ CMakeFiles/get.dir/libft/ft_strlen.c.o: ../libft/libft.h
 CMakeFiles/get.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
 CMakeFiles/get.dir/libft/ft_strnew.c.o: ../libft/libft.h
 
-CMakeFiles/get.dir/main.c.o: ../ft_printf.h
-CMakeFiles/get.dir/main.c.o: ../libft/libft.h
-CMakeFiles/get.dir/main.c.o: ../main.c
+CMakeFiles/get.dir/main2.c.o: ../main2.c
 
 CMakeFiles/get.dir/minusmissing.c.o: ../ft_printf.h
 CMakeFiles/get.dir/minusmissing.c.o: ../libft/libft.h

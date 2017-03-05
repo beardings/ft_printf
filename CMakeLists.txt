@@ -3,7 +3,7 @@ project(4ft_printf)
 
 set(CMAKE_C_FLAGS )
 
-set(SOURCE_FILES main.c /
+set(SOURCE_FILES main2.c /
         ft_printf.c /
         libft/ft_putchar.c /
         libft/ft_atoi.c /
@@ -53,5 +53,8 @@ set(SOURCE_FILES main.c /
         checktype.c /
         cast_mod_cont.c /
         cast_mod_b.c /
-        cast_mod_contn.c)
+        cast_mod_contn.c /
+        cast_modnex.c /
+        cast_mod_next.c /
+        cast_mod_contnext.c)
 add_executable(get ${SOURCE_FILES})

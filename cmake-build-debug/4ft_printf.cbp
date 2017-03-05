@@ -103,6 +103,15 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c">
 			<Option target="get"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contnext.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_next.c">
+			<Option target="get"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_modnex.c">
+			<Option target="get"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/cast_nnnnn.c">
 			<Option target="get"/>
 		</Unit>
@@ -193,7 +202,7 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/libft/ft_strnew.c">
 			<Option target="get"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/main2.c">
 			<Option target="get"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c">

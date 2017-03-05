@@ -6,13 +6,18 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/04 14:50:57 by mponomar          #+#    #+#             */
-/*   Updated: 2017/03/04 14:53:20 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/03/05 18:31:04 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#define IL() i = 0, len = 0
+#define PLUS() i++, len++
+#define MORE() format[i] == '%' && format[i + 1] == '\0'
+#define NOO() (res->width > 0 || res->space > 0 || res->flag > 0)
+#define NOOL() format[i + 1] != '%' && format[i + 1] != '\0'
 
-static size_t		minnull(size_t i, size_t len, const char *format, t_arg *res)
+size_t		minnull(size_t i, size_t len, const char *format, t_arg *res)
 {
 	if (res->zero > 0)
 	{
@@ -37,7 +42,7 @@ static size_t		minnull(size_t i, size_t len, const char *format, t_arg *res)
 	return (len);
 }
 
-static size_t		print_serch(size_t i, size_t len, const char *format, t_arg *res)
+size_t		print_serch(size_t i, size_t len, const char *format, t_arg *res)
 {
 	upperarg(res);
 	if (res->minus > 0)
@@ -65,63 +70,49 @@ static size_t		print_serch(size_t i, size_t len, const char *format, t_arg *res)
 	return (len);
 }
 
-/*static size_t findpro(size_t i, const char *format, t_arg *res, va_list arg)
+size_t		findpro(const char *format, va_list arg, t_arg **res, size_t *i)
 {
-	size_t len;
+	size_t	len;
 
 	len = 0;
-	res->pro = (int) i;
-	i = (startformat(i + 1, format, res));
-	res->pro == (int) i ? res->pro = 1 : 0;
-	if (res->type != '\0')
-    {
-		do_format(res);
-		free(res);
-		len += res->len;
-		res = createres();
-		res->tmp = va_arg(arg, void *);
+	(*res)->pro = (int)(*i);
+	(*i) = (startformat((*i) + 1, format, (*res)));
+	(*res)->pro == (int)(*i) ? (*res)->pro = 1 : 0;
+	if ((*res)->type != '\0')
+	{
+		do_format((*res));
+		free((*res));
+		len += (*res)->len;
+		(*res) = createres();
+		(*res)->tmp = va_arg(arg, void *);
 	}
 	return (len);
-}*/
+}
 
-size_t			searcharg(const char *format, va_list arg, t_arg *res)
+size_t		searcharg(const char *format, va_list arg, t_arg *res)
 {
-	size_t		i;
-	size_t		len;
+	size_t	i;
+	size_t	len;
 
-	i = 0;
-	len = 0;
+	IL();
 	res->tmp = va_arg(arg, void *);
 	while (format[i] != '\0')
 	{
-		while (format[i] == '%' && format[i + 1] != '%' && format[i + 1] != '\0')
-        {
-            res->pro = (int) i;
-            i = (startformat(i + 1, format, res));
-            res->pro == (int) i ? res->pro = 1 : 0;
-            if (res->type != '\0')
-            {
-                do_format(res);
-                free(res);
-                len += res->len;
-                res = createres();
-                res->tmp = va_arg(arg, void *);
-            }
-        }
+		while (format[i] == '%' && NOOL())
+			len += findpro(format, arg, &res, &i);
 		if (format[i] == '%' && format[i + 1] == '%')
 			i++;
 		if (format[i] == '\0')
 			break ;
-		if (res->type == '\0' && (res->width > 0 || res->space > 0 || res->flag > 0))
+		if (res->type == '\0' && NOO())
 			len = print_serch(i, len, format, res);
-		else if (format[i] == '%' && format[i + 1] == '\0' && !(format[i - 1]))
+		else if (MORE() && !(format[i - 1]))
 			return (len);
-		else if (format[i] == '%' && len > 0 && format[i + 1] == '\0' && format[i - 1] != '%')
+		else if (MORE() && len > 0 && format[i - 1] != '%')
 			return (len);
 		else
 			ft_putchar(format[i]);
-		len++;
-		i++;
+		PLUS();
 	}
 	free(res);
 	return (len);

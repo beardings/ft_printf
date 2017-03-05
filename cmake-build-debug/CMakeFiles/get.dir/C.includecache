@@ -14,7 +14,31 @@ ft_printf.h
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_b.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
 /nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_base.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_cont.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contn.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_contnext.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_mod_next.c
+ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+
+/nfs/2016/m/mponomar/project/git/ft_printf/cast_modnex.c
 ft_printf.h
 /nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
 
@@ -148,13 +172,17 @@ string.h
 stdlib.h
 -
 
-/nfs/2016/m/mponomar/project/git/ft_printf/main.c
-ft_printf.h
-/nfs/2016/m/mponomar/project/git/ft_printf/ft_printf.h
+/nfs/2016/m/mponomar/project/git/ft_printf/main2.c
+stdio.h
+-
+stddef.h
+-
 locale.h
-/nfs/2016/m/mponomar/project/git/ft_printf/locale.h
+-
 limits.h
-/nfs/2016/m/mponomar/project/git/ft_printf/limits.h
+-
+errno.h
+-
 
 /nfs/2016/m/mponomar/project/git/ft_printf/minusmissing.c
 ft_printf.h

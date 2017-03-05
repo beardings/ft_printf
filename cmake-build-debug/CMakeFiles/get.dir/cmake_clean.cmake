@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/get.dir/main.c.o"
+  "CMakeFiles/get.dir/main2.c.o"
   "CMakeFiles/get.dir/ft_printf.c.o"
   "CMakeFiles/get.dir/libft/ft_putchar.c.o"
   "CMakeFiles/get.dir/libft/ft_atoi.c.o"
@@ -49,6 +49,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/get.dir/cast_mod_cont.c.o"
   "CMakeFiles/get.dir/cast_mod_b.c.o"
   "CMakeFiles/get.dir/cast_mod_contn.c.o"
+  "CMakeFiles/get.dir/cast_modnex.c.o"
+  "CMakeFiles/get.dir/cast_mod_next.c.o"
+  "CMakeFiles/get.dir/cast_mod_contnext.c.o"
   "get.pdb"
   "get"
 )

@@ -9,9 +9,9 @@ int main(void)
 {
     setlocale(LC_CTYPE, "");
     printf("\n");
-    printf("|len: %i", ft_printf("{%S}", L"O™"));
+    printf("|len: %i", ft_printf("%10s is a string", ""));
     printf("\n");
-    printf("|len: %i", printf("{%S}", L"O™"));
+    printf("|len: %i", printf("%10s is a string", ""));
     //"${CMAKE_C_FLAGS} -Wall -Wextra -Werror"
 
 }

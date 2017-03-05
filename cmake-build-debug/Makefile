@@ -285,6 +285,87 @@ cast_mod_contn.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contn.c.s
 .PHONY : cast_mod_contn.c.s
 
+cast_mod_contnext.o: cast_mod_contnext.c.o
+
+.PHONY : cast_mod_contnext.o
+
+# target to build an object file
+cast_mod_contnext.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contnext.c.o
+.PHONY : cast_mod_contnext.c.o
+
+cast_mod_contnext.i: cast_mod_contnext.c.i
+
+.PHONY : cast_mod_contnext.i
+
+# target to preprocess a source file
+cast_mod_contnext.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contnext.c.i
+.PHONY : cast_mod_contnext.c.i
+
+cast_mod_contnext.s: cast_mod_contnext.c.s
+
+.PHONY : cast_mod_contnext.s
+
+# target to generate assembly for a file
+cast_mod_contnext.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_contnext.c.s
+.PHONY : cast_mod_contnext.c.s
+
+cast_mod_next.o: cast_mod_next.c.o
+
+.PHONY : cast_mod_next.o
+
+# target to build an object file
+cast_mod_next.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_next.c.o
+.PHONY : cast_mod_next.c.o
+
+cast_mod_next.i: cast_mod_next.c.i
+
+.PHONY : cast_mod_next.i
+
+# target to preprocess a source file
+cast_mod_next.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_next.c.i
+.PHONY : cast_mod_next.c.i
+
+cast_mod_next.s: cast_mod_next.c.s
+
+.PHONY : cast_mod_next.s
+
+# target to generate assembly for a file
+cast_mod_next.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_mod_next.c.s
+.PHONY : cast_mod_next.c.s
+
+cast_modnex.o: cast_modnex.c.o
+
+.PHONY : cast_modnex.o
+
+# target to build an object file
+cast_modnex.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_modnex.c.o
+.PHONY : cast_modnex.c.o
+
+cast_modnex.i: cast_modnex.c.i
+
+.PHONY : cast_modnex.i
+
+# target to preprocess a source file
+cast_modnex.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_modnex.c.i
+.PHONY : cast_modnex.c.i
+
+cast_modnex.s: cast_modnex.c.s
+
+.PHONY : cast_modnex.s
+
+# target to generate assembly for a file
+cast_modnex.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/cast_modnex.c.s
+.PHONY : cast_modnex.c.s
+
 cast_nnnnn.o: cast_nnnnn.c.o
 
 .PHONY : cast_nnnnn.o
@@ -1068,32 +1149,32 @@ libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/libft/ft_strnew.c.s
 .PHONY : libft/ft_strnew.c.s
 
-main.o: main.c.o
+main2.o: main2.c.o
 
-.PHONY : main.o
+.PHONY : main2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.o
-.PHONY : main.c.o
+main2.c.o:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.o
+.PHONY : main2.c.o
 
-main.i: main.c.i
+main2.i: main2.c.i
 
-.PHONY : main.i
+.PHONY : main2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.i
-.PHONY : main.c.i
+main2.c.i:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.i
+.PHONY : main2.c.i
 
-main.s: main.c.s
+main2.s: main2.c.s
 
-.PHONY : main.s
+.PHONY : main2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main.c.s
-.PHONY : main.c.s
+main2.c.s:
+	$(MAKE) -f CMakeFiles/get.dir/build.make CMakeFiles/get.dir/main2.c.s
+.PHONY : main2.c.s
 
 minusmissing.o: minusmissing.c.o
 
@@ -1500,6 +1581,15 @@ help:
 	@echo "... cast_mod_contn.o"
 	@echo "... cast_mod_contn.i"
 	@echo "... cast_mod_contn.s"
+	@echo "... cast_mod_contnext.o"
+	@echo "... cast_mod_contnext.i"
+	@echo "... cast_mod_contnext.s"
+	@echo "... cast_mod_next.o"
+	@echo "... cast_mod_next.i"
+	@echo "... cast_mod_next.s"
+	@echo "... cast_modnex.o"
+	@echo "... cast_modnex.i"
+	@echo "... cast_modnex.s"
 	@echo "... cast_nnnnn.o"
 	@echo "... cast_nnnnn.i"
 	@echo "... cast_nnnnn.s"
@@ -1587,9 +1677,9 @@ help:
 	@echo "... libft/ft_strnew.o"
 	@echo "... libft/ft_strnew.i"
 	@echo "... libft/ft_strnew.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main2.o"
+	@echo "... main2.i"
+	@echo "... main2.s"
 	@echo "... minusmissing.o"
 	@echo "... minusmissing.i"
 	@echo "... minusmissing.s"
